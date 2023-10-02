@@ -16,7 +16,18 @@ namespace AppMediaPlayer
         public Form1()
         {
             InitializeComponent();
+            //scroll musicas
+            scrRolagemMusicas.Value = flpMusicas.VerticalScroll.Value;
+            scrRolagemMusicas.Maximum = flpMusicas.VerticalScroll.Maximum;
+            scrRolagemMusicas.Minimum = flpMusicas.VerticalScroll.Minimum;
+
+            //scroll playlists
+            scrPlaylists.Value = flpPlaylists.VerticalScroll.Value;
+            scrPlaylists.Maximum = flpPlaylists.VerticalScroll.Maximum;
+            scrPlaylists.Minimum = flpPlaylists.VerticalScroll.Minimum;
         }
+
+
         //Botão musicas
         private void lblMusicas_Click(object sender, EventArgs e)
         {
@@ -72,6 +83,16 @@ namespace AppMediaPlayer
                 btnPlay.Image = Properties.Resources.Play;
                 Play = true;
             }
+        }
+
+        private void scrRolagemMusicas_Scroll(object sender, ScrollEventArgs e)
+        {
+            flpMusicas.VerticalScroll.Value = scrRolagemMusicas.Value;
+        }
+
+        private void scrPlaylists_Scroll(object sender, ScrollEventArgs e)
+        {
+            flpPlaylists.VerticalScroll.Value = scrPlaylists.Value;
         }
     }
 }
