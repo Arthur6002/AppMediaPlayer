@@ -34,28 +34,21 @@
             this.lblPlayList = new System.Windows.Forms.Label();
             this.lblMusicas = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pnlControles = new System.Windows.Forms.Panel();
+            this.pnlMain = new System.Windows.Forms.Panel();
             this.btnPlay = new System.Windows.Forms.PictureBox();
-            this.pnlControl = new System.Windows.Forms.Panel();
-            this.flpMusicas = new System.Windows.Forms.FlowLayoutPanel();
-            this.scrRolagemMusicas = new System.Windows.Forms.VScrollBar();
-            this.flpPlaylists = new System.Windows.Forms.FlowLayoutPanel();
-            this.scrPlaylists = new System.Windows.Forms.VScrollBar();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnlControles.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnPlay)).BeginInit();
-            this.pnlControl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.panel1.Controls.Add(this.scrPlaylists);
-            this.panel1.Controls.Add(this.flpPlaylists);
             this.panel1.Controls.Add(this.lblRecomendados);
             this.panel1.Controls.Add(this.lblPlayList);
             this.panel1.Controls.Add(this.lblMusicas);
@@ -72,7 +65,7 @@
             this.lblRecomendados.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblRecomendados.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRecomendados.ForeColor = System.Drawing.Color.White;
-            this.lblRecomendados.Location = new System.Drawing.Point(23, 237);
+            this.lblRecomendados.Location = new System.Drawing.Point(23, 233);
             this.lblRecomendados.Name = "lblRecomendados";
             this.lblRecomendados.Size = new System.Drawing.Size(156, 24);
             this.lblRecomendados.TabIndex = 7;
@@ -87,7 +80,7 @@
             this.lblPlayList.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblPlayList.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPlayList.ForeColor = System.Drawing.Color.White;
-            this.lblPlayList.Location = new System.Drawing.Point(23, 335);
+            this.lblPlayList.Location = new System.Drawing.Point(23, 322);
             this.lblPlayList.Name = "lblPlayList";
             this.lblPlayList.Size = new System.Drawing.Size(88, 24);
             this.lblPlayList.TabIndex = 6;
@@ -123,18 +116,6 @@
             this.panel2.Size = new System.Drawing.Size(227, 100);
             this.panel2.TabIndex = 5;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(26, 14);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(67, 69);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -157,12 +138,21 @@
             this.pnlControles.Size = new System.Drawing.Size(1045, 124);
             this.pnlControles.TabIndex = 1;
             // 
+            // pnlMain
+            // 
+            this.pnlMain.BackColor = System.Drawing.Color.Green;
+            this.pnlMain.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlMain.Location = new System.Drawing.Point(227, 99);
+            this.pnlMain.Name = "pnlMain";
+            this.pnlMain.Size = new System.Drawing.Size(1045, 542);
+            this.pnlMain.TabIndex = 2;
+            // 
             // btnPlay
             // 
             this.btnPlay.BackColor = System.Drawing.Color.Transparent;
             this.btnPlay.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnPlay.Image = ((System.Drawing.Image)(resources.GetObject("btnPlay.Image")));
-            this.btnPlay.Location = new System.Drawing.Point(481, 43);
+            this.btnPlay.Location = new System.Drawing.Point(478, 43);
             this.btnPlay.Name = "btnPlay";
             this.btnPlay.Size = new System.Drawing.Size(67, 69);
             this.btnPlay.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -170,50 +160,17 @@
             this.btnPlay.TabStop = false;
             this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
             // 
-            // pnlControl
+            // pictureBox1
             // 
-            this.pnlControl.BackColor = System.Drawing.Color.Green;
-            this.pnlControl.Controls.Add(this.scrRolagemMusicas);
-            this.pnlControl.Controls.Add(this.flpMusicas);
-            this.pnlControl.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlControl.Location = new System.Drawing.Point(227, 99);
-            this.pnlControl.Name = "pnlControl";
-            this.pnlControl.Size = new System.Drawing.Size(1045, 542);
-            this.pnlControl.TabIndex = 2;
-            // 
-            // flpMusicas
-            // 
-            this.flpMusicas.BackColor = System.Drawing.Color.Tomato;
-            this.flpMusicas.Location = new System.Drawing.Point(50, 40);
-            this.flpMusicas.Name = "flpMusicas";
-            this.flpMusicas.Size = new System.Drawing.Size(950, 463);
-            this.flpMusicas.TabIndex = 1;
-            // 
-            // scrRolagemMusicas
-            // 
-            this.scrRolagemMusicas.LargeChange = 30;
-            this.scrRolagemMusicas.Location = new System.Drawing.Point(30, 40);
-            this.scrRolagemMusicas.Name = "scrRolagemMusicas";
-            this.scrRolagemMusicas.Size = new System.Drawing.Size(17, 463);
-            this.scrRolagemMusicas.TabIndex = 0;
-            this.scrRolagemMusicas.Scroll += new System.Windows.Forms.ScrollEventHandler(this.scrRolagemMusicas_Scroll);
-            // 
-            // flpPlaylists
-            // 
-            this.flpPlaylists.BackColor = System.Drawing.Color.Tomato;
-            this.flpPlaylists.Location = new System.Drawing.Point(27, 371);
-            this.flpPlaylists.Name = "flpPlaylists";
-            this.flpPlaylists.Size = new System.Drawing.Size(191, 270);
-            this.flpPlaylists.TabIndex = 2;
-            // 
-            // scrPlaylists
-            // 
-            this.scrPlaylists.LargeChange = 30;
-            this.scrPlaylists.Location = new System.Drawing.Point(9, 371);
-            this.scrPlaylists.Name = "scrPlaylists";
-            this.scrPlaylists.Size = new System.Drawing.Size(17, 270);
-            this.scrPlaylists.TabIndex = 2;
-            this.scrPlaylists.Scroll += new System.Windows.Forms.ScrollEventHandler(this.scrPlaylists_Scroll);
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(26, 14);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(67, 69);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
@@ -221,7 +178,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(1272, 765);
-            this.Controls.Add(this.pnlControl);
+            this.Controls.Add(this.pnlMain);
             this.Controls.Add(this.pnlControles);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -232,10 +189,9 @@
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.pnlControles.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btnPlay)).EndInit();
-            this.pnlControl.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -250,12 +206,8 @@
         private System.Windows.Forms.Label lblRecomendados;
         private System.Windows.Forms.Label lblPlayList;
         private System.Windows.Forms.Panel pnlControles;
-        private System.Windows.Forms.Panel pnlControl;
+        private System.Windows.Forms.Panel pnlMain;
         private System.Windows.Forms.PictureBox btnPlay;
-        private System.Windows.Forms.FlowLayoutPanel flpMusicas;
-        private System.Windows.Forms.VScrollBar scrRolagemMusicas;
-        private System.Windows.Forms.VScrollBar scrPlaylists;
-        private System.Windows.Forms.FlowLayoutPanel flpPlaylists;
     }
 }
 
