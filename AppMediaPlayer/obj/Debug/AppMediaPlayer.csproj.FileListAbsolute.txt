@@ -90,5 +90,7 @@ C:\Users\Usuario\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.csproj.F
 C:\Users\Usuario\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.csproj.CopyComplete
 C:\Users\Usuario\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.exe
 C:\Users\Usuario\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.pdb
-C:\Users\Usuario\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.csproj.SuggestedBindingRedirects.cache
 C:\Users\Usuario\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.Pages.Playlists.resources
+C:\Users\Usuario\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.Pages.Login.resources
+C:\Users\Usuario\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.Pages.Inicio.resources
+C:\Users\Usuario\AppMediaPlayer\AppMediaPlayer\bin\Debug\ReaLTaiizor.xml

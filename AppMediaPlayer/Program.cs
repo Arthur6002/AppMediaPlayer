@@ -7,8 +7,10 @@ using System.Windows.Forms;
 
 namespace AppMediaPlayer
 {
+    
     internal static class Program
     {
+        public static bool Logado = false;
         /// <summary>
         /// Ponto de entrada principal para o aplicativo.
         /// </summary>
@@ -17,7 +19,8 @@ namespace AppMediaPlayer
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Login());
+            
         }
     }
 }

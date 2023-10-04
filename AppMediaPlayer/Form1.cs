@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppMediaPlayer.Pages;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,6 +17,16 @@ namespace AppMediaPlayer
         public Form1()
         {
             InitializeComponent();
+        }
+
+        void Change_Form(Panel painel, Form form)
+        {
+            painel.Controls.Clear();
+            form.TopLevel = false;
+            painel.Controls.Add(form);
+            form.Dock = DockStyle.Fill;
+            form.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            form.Show();
         }
 
 
@@ -36,7 +47,8 @@ namespace AppMediaPlayer
         //Botão PlayLists
         private void lblPlayList_Click(object sender, EventArgs e)
         {
-
+            Form playlist = new Pages.Playlists();
+            Change_Form(pnlMain, playlist);
         }
         private void lblPlayList_MouseEnter(object sender, EventArgs e)
         {
@@ -74,6 +86,16 @@ namespace AppMediaPlayer
                 btnPlay.Image = Properties.Resources.Play;
                 Play = true;
             }
+        }
+
+        private void pnlMain_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
         }
     }
 }

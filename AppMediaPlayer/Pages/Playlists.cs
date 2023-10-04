@@ -12,9 +12,15 @@ namespace AppMediaPlayer.Pages
 {
     public partial class Playlists : Form
     {
+        
         public Playlists()
         {
             InitializeComponent();
+        }
+
+        private void Playlists_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }
