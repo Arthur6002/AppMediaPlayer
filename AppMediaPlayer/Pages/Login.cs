@@ -31,7 +31,8 @@ namespace AppMediaPlayer.Pages
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            if (txtUsuario.Text == "arthur" && txtSenha.Text == "123")
+            
+            if (txtUsuario.Text == "usuario" && txtSenha.Text == "abc")
             {
                 Form logado = new Form1();
                 logado.ShowDialog();
@@ -39,7 +40,20 @@ namespace AppMediaPlayer.Pages
             }
             else
             {
-                MessageBox.Show("Usuario ou Senha errada");
+                MessageBox.Show("Usuario ou Senha incorretos");
+            }
+
+        }
+
+        private void rdbMostrarSenha_Click(object sender, EventArgs e)
+        {
+            if (rdbMostrarSenha.Checked)
+            {
+                txtSenha.Password = true;
+            }
+            else
+            {
+                txtSenha.Password = false;
             }
         }
     }
