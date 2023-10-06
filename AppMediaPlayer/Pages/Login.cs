@@ -31,8 +31,7 @@ namespace AppMediaPlayer.Pages
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            
-            if (txtUsuario.Text == "usuario" && txtSenha.Text == "abc")
+            if (txtUsuario.TextButton == "usuario" && txtSenha.TextButton == "abc")
             {
                 Form logado = new Form1();
                 logado.ShowDialog();
@@ -55,6 +54,16 @@ namespace AppMediaPlayer.Pages
             {
                 txtSenha.Password = false;
             }
+        }
+
+        private void txtSenha_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtUsuario_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

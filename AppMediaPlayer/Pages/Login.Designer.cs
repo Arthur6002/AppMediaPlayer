@@ -33,6 +33,8 @@
             this.txtSenha = new ReaLTaiizor.Controls.CyberTextBox();
             this.txtUsuario = new ReaLTaiizor.Controls.CyberTextBox();
             this.rdbMostrarSenha = new ReaLTaiizor.Controls.CyberRadioButton();
+            this.crownDockPanel1 = new ReaLTaiizor.Docking.Crown.CrownDockPanel();
+            this.tickIcon1 = new ReaLTaiizor.Controls.TickIcon();
             this.SuspendLayout();
             // 
             // btnFechar
@@ -119,6 +121,7 @@
             this.txtSenha.TextButton = "";
             this.txtSenha.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             this.txtSenha.Timer_RGB = 300;
+            this.txtSenha.Load += new System.EventHandler(this.txtSenha_Load);
             // 
             // txtUsuario
             // 
@@ -149,6 +152,7 @@
             this.txtUsuario.TextButton = "";
             this.txtUsuario.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             this.txtUsuario.Timer_RGB = 300;
+            this.txtUsuario.Load += new System.EventHandler(this.txtUsuario_Load);
             // 
             // rdbMostrarSenha
             // 
@@ -193,19 +197,44 @@
             this.rdbMostrarSenha.Timer_RGB = 300;
             this.rdbMostrarSenha.Click += new System.EventHandler(this.rdbMostrarSenha_Click);
             // 
+            // crownDockPanel1
+            // 
+            this.crownDockPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.crownDockPanel1.Location = new System.Drawing.Point(1, -5);
+            this.crownDockPanel1.Name = "crownDockPanel1";
+            this.crownDockPanel1.Size = new System.Drawing.Size(618, 60);
+            this.crownDockPanel1.TabIndex = 11;
+            // 
+            // tickIcon1
+            // 
+            this.tickIcon1.BackColor = System.Drawing.Color.Transparent;
+            this.tickIcon1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
+            this.tickIcon1.CircleColor = System.Drawing.Color.Gray;
+            this.tickIcon1.Font = new System.Drawing.Font("Wingdings", 27F, System.Drawing.FontStyle.Bold);
+            this.tickIcon1.ForeColor = System.Drawing.Color.Gray;
+            this.tickIcon1.Location = new System.Drawing.Point(12, 9);
+            this.tickIcon1.Name = "tickIcon1";
+            this.tickIcon1.Size = new System.Drawing.Size(33, 33);
+            this.tickIcon1.String = "ü";
+            this.tickIcon1.TabIndex = 12;
+            this.tickIcon1.Text = "tickIcon1";
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(65)))), ((int)(((byte)(70)))));
             this.ClientSize = new System.Drawing.Size(618, 450);
+            this.Controls.Add(this.tickIcon1);
             this.Controls.Add(this.rdbMostrarSenha);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.btnFechar);
+            this.Controls.Add(this.crownDockPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Login_Load);
             this.ResumeLayout(false);
@@ -219,5 +248,7 @@
         private ReaLTaiizor.Controls.CyberTextBox txtSenha;
         private ReaLTaiizor.Controls.CyberTextBox txtUsuario;
         private ReaLTaiizor.Controls.CyberRadioButton rdbMostrarSenha;
+        private ReaLTaiizor.Docking.Crown.CrownDockPanel crownDockPanel1;
+        private ReaLTaiizor.Controls.TickIcon tickIcon1;
     }
 }
