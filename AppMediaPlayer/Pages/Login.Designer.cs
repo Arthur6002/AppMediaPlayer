@@ -76,12 +76,12 @@
             this.btnLogin.Lighting = false;
             this.btnLogin.LinearGradient_Background = false;
             this.btnLogin.LinearGradientPen = false;
-            this.btnLogin.Location = new System.Drawing.Point(233, 320);
+            this.btnLogin.Location = new System.Drawing.Point(219, 308);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.PenWidth = 15;
             this.btnLogin.Rounding = true;
             this.btnLogin.RoundingInt = 70;
-            this.btnLogin.Size = new System.Drawing.Size(130, 50);
+            this.btnLogin.Size = new System.Drawing.Size(155, 66);
             this.btnLogin.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
             this.btnLogin.TabIndex = 5;
             this.btnLogin.Tag = "Cyber";
@@ -166,7 +166,7 @@
             this.rdbMostrarSenha.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.rdbMostrarSenha.ColorBackground_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.rdbMostrarSenha.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.rdbMostrarSenha.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(200)))), ((int)(((byte)(238)))));
+            this.rdbMostrarSenha.ColorBackground_Pen = System.Drawing.Color.DodgerBlue;
             this.rdbMostrarSenha.ColorChecked = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(200)))), ((int)(((byte)(238)))));
             this.rdbMostrarSenha.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.rdbMostrarSenha.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));

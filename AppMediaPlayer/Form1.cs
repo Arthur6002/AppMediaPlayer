@@ -33,7 +33,8 @@ namespace AppMediaPlayer
         //Botão musicas
         private void lblMusicas_Click(object sender, EventArgs e)
         {
-            
+            Form musicas = new Pages.Musicas();
+            Change_Form(pnlMain, musicas);
         }
         private void lblMusicas_MouseEnter(object sender, EventArgs e)
         {

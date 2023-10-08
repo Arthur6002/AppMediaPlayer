@@ -234,6 +234,12 @@
     <Compile Include="Pages\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Musicas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pages\Musicas.Designer.cs">
+      <DependentUpon>Musicas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Playlists.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -250,6 +256,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Musicas.resx">
+      <DependentUpon>Musicas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\Playlists.resx">
       <DependentUpon>Playlists.cs</DependentUpon>
@@ -295,6 +304,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlayButton.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Fody.4.0.2\build\Fody.targets" Condition="Exists('..\packages\Fody.4.0.2\build\Fody.targets')" />

@@ -142,3 +142,4 @@ C:\Users\Arthu\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.csproj.Fod
 C:\Users\Arthu\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.csproj.CopyComplete
 C:\Users\Arthu\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.exe
 C:\Users\Arthu\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.pdb
+C:\Users\Arthu\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.Pages.Musicas.resources
