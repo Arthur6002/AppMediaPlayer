@@ -35,6 +35,7 @@ namespace AppMediaPlayer
         {
             Form musicas = new Pages.Musicas();
             Change_Form(pnlMain, musicas);
+            txtTitulo.Text = "Musicas";
         }
         private void lblMusicas_MouseEnter(object sender, EventArgs e)
         {
@@ -50,6 +51,7 @@ namespace AppMediaPlayer
         {
             Form playlist = new Pages.Playlists();
             Change_Form(pnlMain, playlist);
+            txtTitulo.Text = "Playlists";
         }
         private void lblPlayList_MouseEnter(object sender, EventArgs e)
         {
@@ -97,6 +99,11 @@ namespace AppMediaPlayer
         private void label2_Click(object sender, EventArgs e)
         {
             Environment.Exit(0);
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

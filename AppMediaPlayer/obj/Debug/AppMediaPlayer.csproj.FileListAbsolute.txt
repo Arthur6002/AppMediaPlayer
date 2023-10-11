@@ -143,3 +143,6 @@ C:\Users\Arthu\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.csproj.Cop
 C:\Users\Arthu\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.exe
 C:\Users\Arthu\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.pdb
 C:\Users\Arthu\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.Pages.Musicas.resources
+C:\Users\Usuario\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.Pages.Musicas.resources
+C:\Users\Usuario\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.Pages.Contas.resources
+C:\Users\Usuario\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.Pages.Registro.resources

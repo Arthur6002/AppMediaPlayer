@@ -127,4 +127,13 @@
   <data name="PlayButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PlayButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="cacatua-galerita-02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cacatua-galerita-02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="71M8yXz6o7L._UF1000,1000_QL80_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\71M8yXz6o7L._UF1000,1000_QL80_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\usuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

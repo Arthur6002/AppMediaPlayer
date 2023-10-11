@@ -63,6 +63,26 @@ namespace AppMediaPlayer.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _71M8yXz6o7L__UF1000_1000_QL80_ {
+            get {
+                object obj = ResourceManager.GetObject("71M8yXz6o7L._UF1000,1000_QL80_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cacatua_galerita_02 {
+            get {
+                object obj = ResourceManager.GetObject("cacatua-galerita-02", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Pause {
             get {
                 object obj = ResourceManager.GetObject("Pause", resourceCulture);
@@ -86,6 +106,16 @@ namespace AppMediaPlayer.Properties {
         internal static System.Drawing.Bitmap PlayButton {
             get {
                 object obj = ResourceManager.GetObject("PlayButton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap usuario {
+            get {
+                object obj = ResourceManager.GetObject("usuario", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using AppMediaPlayer.Controller;
+using AppMediaPlayer.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,7 +22,7 @@ namespace AppMediaPlayer.Pages
 
         private void btnFechar_Click(object sender, EventArgs e)
         {
-            Environment.Exit(0);
+            Application.Exit();
 
         }
 
@@ -31,15 +33,21 @@ namespace AppMediaPlayer.Pages
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            if (txtUsuario.TextButton == "usuario" && txtSenha.TextButton == "abc")
+            ManageUser mg = new ManageUser();
+            List<Usuario> Usuarios = mg.GetUsuarios();
+
+            foreach (var teste in Usuarios)
             {
-                Form logado = new Form1();
-                logado.ShowDialog();
-                this.Close();
-            }
-            else
-            {
-                MessageBox.Show("Usuario ou Senha incorretos");
+                if (teste.nome == txtUsuario.TextButton && teste.senha == txtSenha.TextButton)
+                {
+                    this.Hide();
+                    Form logado = new Form1();
+                    logado.ShowDialog();
+                }
+                else
+                {
+                    MessageBox.Show("Usuario ou Senha incorretos");
+                }
             }
 
         }
@@ -55,15 +63,11 @@ namespace AppMediaPlayer.Pages
                 txtSenha.Password = false;
             }
         }
-
-        private void txtSenha_Load(object sender, EventArgs e)
+        private void foxLinkLabel1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void txtUsuario_Load(object sender, EventArgs e)
-        {
-
+            this.Hide();
+            Form logado = new Registro();
+            logado.ShowDialog();
         }
     }
 }

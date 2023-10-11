@@ -216,11 +216,19 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\ManageUser.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Usuario.cs" />
+    <Compile Include="Pages\Contas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pages\Contas.Designer.cs">
+      <DependentUpon>Contas.cs</DependentUpon>
     </Compile>
     <Compile Include="Pages\Inicio.cs">
       <SubType>Form</SubType>
@@ -246,10 +254,19 @@
     <Compile Include="Pages\Playlists.Designer.cs">
       <DependentUpon>Playlists.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Registro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pages\Registro.Designer.cs">
+      <DependentUpon>Registro.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Contas.resx">
+      <DependentUpon>Contas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
@@ -262,6 +279,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\Playlists.resx">
       <DependentUpon>Playlists.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Registro.resx">
+      <DependentUpon>Registro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -307,6 +327,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\PlayButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\71M8yXz6o7L._UF1000,1000_QL80_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cacatua-galerita-02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuario.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Fody.4.0.2\build\Fody.targets" Condition="Exists('..\packages\Fody.4.0.2\build\Fody.targets')" />
