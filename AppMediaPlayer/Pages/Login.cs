@@ -22,14 +22,9 @@ namespace AppMediaPlayer.Pages
 
         private void btnFechar_Click(object sender, EventArgs e)
         {
-            Application.Exit();
-
+            FormController.ShowForm(this, new Contas());
         }
 
-        private void Login_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
@@ -40,34 +35,23 @@ namespace AppMediaPlayer.Pages
             {
                 if (teste.nome == txtUsuario.TextButton && teste.senha == txtSenha.TextButton)
                 {
-                    this.Hide();
-                    Form logado = new Form1();
-                    logado.ShowDialog();
-                }
-                else
-                {
-                    MessageBox.Show("Usuario ou Senha incorretos");
+                    FormController.ShowForm(this, new Main());
+                    return;
                 }
             }
+            MessageBox.Show("Usuario ou Senha incorreto(s)", "Informações inválidas", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
         }
 
         private void rdbMostrarSenha_Click(object sender, EventArgs e)
         {
-            if (rdbMostrarSenha.Checked)
-            {
-                txtSenha.Password = true;
-            }
-            else
-            {
-                txtSenha.Password = false;
-            }
+            txtSenha.Password = rdbMostrarSenha.Checked;
         }
+
+        
         private void foxLinkLabel1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Form logado = new Registro();
-            logado.ShowDialog();
+            FormController.ShowForm(this, new Registro());
         }
     }
 }

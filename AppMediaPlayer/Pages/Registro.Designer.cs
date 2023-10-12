@@ -144,6 +144,7 @@
             this.txtSenha.LinearGradientPen = false;
             this.txtSenha.Location = new System.Drawing.Point(198, 278);
             this.txtSenha.Name = "txtSenha";
+            this.txtSenha.Password = true;
             this.txtSenha.PenWidth = 15;
             this.txtSenha.RGB = false;
             this.txtSenha.Rounding = true;
@@ -280,6 +281,7 @@
             this.rdbMostrarSenha.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             this.rdbMostrarSenha.Timer_Effect_1 = 1;
             this.rdbMostrarSenha.Timer_RGB = 300;
+            this.rdbMostrarSenha.Load += new System.EventHandler(this.rdbMostrarSenha_Load);
             this.rdbMostrarSenha.Click += new System.EventHandler(this.rdbMostrarSenha_Click);
             // 
             // pictureBox1

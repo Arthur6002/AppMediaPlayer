@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppMediaPlayer.Controller;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,30 +18,21 @@ namespace AppMediaPlayer.Pages
             InitializeComponent();
         }
 
+
         private void btnFechar_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Environment.Exit(0);
         }
 
-        private void label2_Click(object sender, EventArgs e)
+
+        private void pnl_add_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Form logado = new Registro();
-            logado.ShowDialog();
+            FormController.ShowForm(this, new Login());
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void pb_add_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Form logado = new Registro();
-            logado.ShowDialog();
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Form logado = new Form1();
-            logado.ShowDialog();
+            FormController.ShowForm(this, new Login());
         }
     }
 }

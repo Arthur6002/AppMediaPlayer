@@ -19,7 +19,7 @@ namespace AppMediaPlayer
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Contas());
+            Application.Run(new loader());
             
         }
     }

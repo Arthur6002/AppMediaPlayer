@@ -21,34 +21,29 @@ namespace AppMediaPlayer.Pages
 
         private void rdbMostrarSenha_Click(object sender, EventArgs e)
         {
-            if (rdbMostrarSenha.Checked)
-            {
-                txtSenha.Password = true;
-            }
-            else
-            {
-                txtSenha.Password = false;
-            }
+            txtSenha.Password = rdbMostrarSenha.Checked;
         }
 
         private void btnFechar_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            FormController.ShowForm(this, new Contas());
         }
 
         private void foxLinkLabel1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Form logado = new Login();
-            logado.ShowDialog();
+            FormController.ShowForm(this, new Login());
         }
 
-        private async void btnRegistro_Click_1(object sender, EventArgs e)
+        private void btnRegistro_Click_1(object sender, EventArgs e)
         {
             ManageUser.criarUsuario(txtUsuario.TextButton, txtSenha.TextButton, txtEmail.TextButton);
-            this.Hide();
-            Form login = new Login();
-            login.ShowDialog();
+            FormController.ShowForm(this, new Login());
+
+        }
+
+        private void rdbMostrarSenha_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
