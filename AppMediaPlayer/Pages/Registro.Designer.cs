@@ -39,9 +39,9 @@
             this.foxLabel2 = new ReaLTaiizor.Controls.FoxLabel();
             this.foxLabel3 = new ReaLTaiizor.Controls.FoxLabel();
             this.rdbMostrarSenha = new ReaLTaiizor.Controls.CyberRadioButton();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.foxLabel4 = new ReaLTaiizor.Controls.FoxLabel();
             this.foxLinkLabel1 = new ReaLTaiizor.Controls.FoxLinkLabel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -284,15 +284,6 @@
             this.rdbMostrarSenha.Load += new System.EventHandler(this.rdbMostrarSenha_Load);
             this.rdbMostrarSenha.Click += new System.EventHandler(this.rdbMostrarSenha_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(33, 33);
-            this.pictureBox1.TabIndex = 25;
-            this.pictureBox1.TabStop = false;
-            // 
             // foxLabel4
             // 
             this.foxLabel4.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
@@ -318,15 +309,26 @@
             this.foxLinkLabel1.Text = "Logar-se";
             this.foxLinkLabel1.Click += new ReaLTaiizor.Util.FoxBase.ButtonFoxBase.ClickEventHandler(this.foxLinkLabel1_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.pictureBox1.Image = global::AppMediaPlayer.Properties.Resources.logo__2_;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(33, 33);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 31;
+            this.pictureBox1.TabStop = false;
+            // 
             // Registro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(65)))), ((int)(((byte)(70)))));
             this.ClientSize = new System.Drawing.Size(618, 500);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.foxLinkLabel1);
             this.Controls.Add(this.foxLabel4);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.rdbMostrarSenha);
             this.Controls.Add(this.foxLabel3);
             this.Controls.Add(this.foxLabel2);
@@ -360,8 +362,8 @@
         private ReaLTaiizor.Controls.FoxLabel foxLabel2;
         private ReaLTaiizor.Controls.FoxLabel foxLabel3;
         private ReaLTaiizor.Controls.CyberRadioButton rdbMostrarSenha;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private ReaLTaiizor.Controls.FoxLabel foxLabel4;
         private ReaLTaiizor.Controls.FoxLinkLabel foxLinkLabel1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

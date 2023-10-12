@@ -34,5 +34,15 @@ namespace AppMediaPlayer.Pages
         {
             FormController.ShowForm(this, new Login());
         }
+
+        private void pcbAdicionar_Click(object sender, EventArgs e)
+        {
+            FormController.ShowForm(this, new Registro());
+        }
+
+        private void pnlAdicionar_Click(object sender, EventArgs e)
+        {
+            FormController.ShowForm(this, new Registro());
+        }
     }
 }

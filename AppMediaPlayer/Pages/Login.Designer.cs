@@ -37,9 +37,9 @@
             this.foxLabel1 = new ReaLTaiizor.Controls.FoxLabel();
             this.foxLabel2 = new ReaLTaiizor.Controls.FoxLabel();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.foxLinkLabel1 = new ReaLTaiizor.Controls.FoxLinkLabel();
             this.foxLabel3 = new ReaLTaiizor.Controls.FoxLabel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -241,15 +241,6 @@
             this.label1.TabIndex = 24;
             this.label1.Text = "Login";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 9);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(33, 33);
-            this.pictureBox1.TabIndex = 26;
-            this.pictureBox1.TabStop = false;
-            // 
             // foxLinkLabel1
             // 
             this.foxLinkLabel1.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -275,15 +266,26 @@
             this.foxLabel3.TabIndex = 28;
             this.foxLabel3.Text = "Não possui cadastro?";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.pictureBox1.Image = global::AppMediaPlayer.Properties.Resources.logo__2_;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 9);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(33, 33);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 29;
+            this.pictureBox1.TabStop = false;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(65)))), ((int)(((byte)(70)))));
             this.ClientSize = new System.Drawing.Size(618, 440);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.foxLabel3);
             this.Controls.Add(this.foxLinkLabel1);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.foxLabel2);
             this.Controls.Add(this.foxLabel1);
@@ -313,8 +315,8 @@
         private ReaLTaiizor.Controls.FoxLabel foxLabel1;
         private ReaLTaiizor.Controls.FoxLabel foxLabel2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private ReaLTaiizor.Controls.FoxLinkLabel foxLinkLabel1;
         private ReaLTaiizor.Controls.FoxLabel foxLabel3;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
