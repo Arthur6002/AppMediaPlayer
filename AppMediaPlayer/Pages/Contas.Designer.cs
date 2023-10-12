@@ -31,15 +31,18 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnFechar = new System.Windows.Forms.Label();
             this.crownDockPanel1 = new ReaLTaiizor.Docking.Crown.CrownDockPanel();
-            this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.pnl_add = new System.Windows.Forms.Panel();
+            this.pb_add = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pnl_add.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_add)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -75,39 +78,24 @@
             this.crownDockPanel1.Size = new System.Drawing.Size(846, 60);
             this.crownDockPanel1.TabIndex = 22;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(39, 33);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(101, 108);
-            this.label2.TabIndex = 28;
-            this.label2.Text = "+";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
             // panel1
             // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(434, 148);
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Location = new System.Drawing.Point(205, 129);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(170, 170);
-            this.panel1.TabIndex = 29;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            this.panel1.Size = new System.Drawing.Size(183, 193);
+            this.panel1.TabIndex = 27;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
-            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox2.Image = global::AppMediaPlayer.Properties.Resources.usuario;
-            this.pictureBox2.Location = new System.Drawing.Point(196, 148);
+            this.pictureBox2.Image = global::AppMediaPlayer.Properties.Resources.Plus512;
+            this.pictureBox2.Location = new System.Drawing.Point(31, 43);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(170, 170);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 27;
+            this.pictureBox2.Size = new System.Drawing.Size(120, 107);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox1
             // 
@@ -118,29 +106,48 @@
             this.pictureBox1.TabIndex = 26;
             this.pictureBox1.TabStop = false;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(245, 325);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(103, 26);
+            this.label2.TabIndex = 28;
+            this.label2.Text = "Adicionar";
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(247, 323);
+            this.label3.Location = new System.Drawing.Point(452, 325);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(61, 22);
+            this.label3.Size = new System.Drawing.Size(103, 26);
             this.label3.TabIndex = 30;
-            this.label3.Text = "Guest";
+            this.label3.Text = "Adicionar";
             // 
-            // label4
+            // pnl_add
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(457, 321);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(123, 22);
-            this.label4.TabIndex = 31;
-            this.label4.Text = "Novo Usuario";
+            this.pnl_add.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pnl_add.Controls.Add(this.pb_add);
+            this.pnl_add.Location = new System.Drawing.Point(412, 129);
+            this.pnl_add.Name = "pnl_add";
+            this.pnl_add.Size = new System.Drawing.Size(183, 193);
+            this.pnl_add.TabIndex = 29;
+            this.pnl_add.Click += new System.EventHandler(this.pnl_add_Click);
+            // 
+            // pb_add
+            // 
+            this.pb_add.Image = global::AppMediaPlayer.Properties.Resources.Plus512;
+            this.pb_add.Location = new System.Drawing.Point(31, 43);
+            this.pb_add.Name = "pb_add";
+            this.pb_add.Size = new System.Drawing.Size(120, 107);
+            this.pb_add.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pb_add.TabIndex = 0;
+            this.pb_add.TabStop = false;
+            this.pb_add.Click += new System.EventHandler(this.pb_add_Click);
             // 
             // Contas
             // 
@@ -148,10 +155,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(65)))), ((int)(((byte)(70)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
+            this.Controls.Add(this.pnl_add);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnFechar);
@@ -161,9 +168,10 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Contas";
             this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.pnl_add.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pb_add)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -175,10 +183,11 @@
         private System.Windows.Forms.Label btnFechar;
         private ReaLTaiizor.Docking.Crown.CrownDockPanel crownDockPanel1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Panel pnl_add;
+        private System.Windows.Forms.PictureBox pb_add;
     }
 }

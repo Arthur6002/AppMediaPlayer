@@ -21,17 +21,14 @@ namespace AppMediaPlayer.Controller
 
         public static bool criarUsuario(string name, string senha, string email)
         {
-
             try
             {
                 Usuario novo_usuario = new Usuario();
-
                 id++;
                 novo_usuario.id = id;
                 novo_usuario.nome = name;
                 novo_usuario.email = email;
                 novo_usuario.senha = senha;
-
                 usuarios.Add(novo_usuario);
                 Console.WriteLine(novo_usuario.id + " " + novo_usuario.nome);
                 return true;
@@ -41,8 +38,6 @@ namespace AppMediaPlayer.Controller
             {
                 MessageBox.Show(ex.Message);
             }
-
-
             return false;
         }
     }
