@@ -42,10 +42,21 @@ namespace AppMediaPlayer.Pages
             FormController.ShowForm(this, new Login());
         }
 
+<<<<<<< HEAD
         private void crownDockPanel1_MouseDown(object sender, MouseEventArgs e)
         {
             ReleaseCapture();
             SendMessage(this.Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
+=======
+        private void pcbAdicionar_Click(object sender, EventArgs e)
+        {
+            FormController.ShowForm(this, new Registro());
+        }
+
+        private void pnlAdicionar_Click(object sender, EventArgs e)
+        {
+            FormController.ShowForm(this, new Registro());
+>>>>>>> b2aa7f279007b86037665a78f6ae44283be24dc7
         }
     }
 }

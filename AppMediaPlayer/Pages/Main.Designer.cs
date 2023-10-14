@@ -34,6 +34,7 @@
             this.lblPlayList = new System.Windows.Forms.Label();
             this.lblMusicas = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+<<<<<<< HEAD
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lbl_UserName = new System.Windows.Forms.Label();
             this.pnlControles = new System.Windows.Forms.Panel();
@@ -41,6 +42,16 @@
             this.pnlMain = new System.Windows.Forms.Panel();
             this.txtTitulo = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+=======
+            this.label1 = new System.Windows.Forms.Label();
+            this.pnlControles = new System.Windows.Forms.Panel();
+            this.pnlMain = new System.Windows.Forms.Panel();
+            this.txtTitulo = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.crownDockPanel1 = new ReaLTaiizor.Docking.Crown.CrownDockPanel();
+            this.btnPlay = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+>>>>>>> b2aa7f279007b86037665a78f6ae44283be24dc7
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnBack = new System.Windows.Forms.PictureBox();
             this.btnForward = new System.Windows.Forms.PictureBox();
@@ -129,6 +140,7 @@
             this.panel2.Size = new System.Drawing.Size(227, 100);
             this.panel2.TabIndex = 5;
             // 
+<<<<<<< HEAD
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
@@ -153,10 +165,24 @@
             this.lbl_UserName.TabIndex = 1;
             this.lbl_UserName.Text = "Usuario";
             this.lbl_UserName.Click += new System.EventHandler(this.lbl_UserName_Click);
+=======
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 12.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(101, 22);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(68, 23);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Usuario";
+>>>>>>> b2aa7f279007b86037665a78f6ae44283be24dc7
             // 
             // pnlControles
             // 
             this.pnlControles.BackColor = System.Drawing.Color.Pink;
+<<<<<<< HEAD
             this.pnlControles.Controls.Add(this.lbl_song_name);
             this.pnlControles.Controls.Add(this.lbl_song_album);
             this.pnlControles.Controls.Add(this.lbl_song_author);
@@ -192,6 +218,23 @@
             this.pnlMain.MinimumSize = new System.Drawing.Size(261, 65);
             this.pnlMain.Name = "pnlMain";
             this.pnlMain.Size = new System.Drawing.Size(1046, 544);
+=======
+            this.pnlControles.Controls.Add(this.btnPlay);
+            this.pnlControles.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlControles.Location = new System.Drawing.Point(227, 641);
+            this.pnlControles.Name = "pnlControles";
+            this.pnlControles.Size = new System.Drawing.Size(1045, 124);
+            this.pnlControles.TabIndex = 1;
+            // 
+            // pnlMain
+            // 
+            this.pnlMain.BackColor = System.Drawing.Color.Green;
+            this.pnlMain.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlMain.Location = new System.Drawing.Point(227, 99);
+            this.pnlMain.MinimumSize = new System.Drawing.Size(261, 65);
+            this.pnlMain.Name = "pnlMain";
+            this.pnlMain.Size = new System.Drawing.Size(1045, 542);
+>>>>>>> b2aa7f279007b86037665a78f6ae44283be24dc7
             this.pnlMain.TabIndex = 2;
             // 
             // txtTitulo
@@ -220,6 +263,7 @@
             this.label3.Text = "X";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
+<<<<<<< HEAD
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(54)))));
@@ -227,10 +271,53 @@
             this.pictureBox2.Location = new System.Drawing.Point(600, 21);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(68, 52);
+=======
+            // crownDockPanel1
+            // 
+            this.crownDockPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.crownDockPanel1.Location = new System.Drawing.Point(227, 0);
+            this.crownDockPanel1.Name = "crownDockPanel1";
+            this.crownDockPanel1.Size = new System.Drawing.Size(1045, 100);
+            this.crownDockPanel1.TabIndex = 26;
+            // 
+            // btnPlay
+            // 
+            this.btnPlay.BackColor = System.Drawing.Color.Transparent;
+            this.btnPlay.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnPlay.Image = global::AppMediaPlayer.Properties.Resources.Play;
+            this.btnPlay.Location = new System.Drawing.Point(478, 43);
+            this.btnPlay.Name = "btnPlay";
+            this.btnPlay.Size = new System.Drawing.Size(67, 69);
+            this.btnPlay.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnPlay.TabIndex = 2;
+            this.btnPlay.TabStop = false;
+            this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(26, 14);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(67, 69);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.pictureBox2.Image = global::AppMediaPlayer.Properties.Resources.logo__2_;
+            this.pictureBox2.Location = new System.Drawing.Point(233, 15);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(60, 60);
+>>>>>>> b2aa7f279007b86037665a78f6ae44283be24dc7
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 29;
             this.pictureBox2.TabStop = false;
             // 
+<<<<<<< HEAD
             // btnBack
             // 
             this.btnBack.BackColor = System.Drawing.Color.Transparent;
@@ -354,6 +441,8 @@
             this.lbl_song_name.TabIndex = 11;
             this.lbl_song_name.Text = "Feel Good Inc";
             // 
+=======
+>>>>>>> b2aa7f279007b86037665a78f6ae44283be24dc7
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
