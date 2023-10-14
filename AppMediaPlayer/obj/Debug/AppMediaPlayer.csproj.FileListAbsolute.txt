@@ -49,6 +49,28 @@ C:\Users\N3rdy\Desktop\AppMediaPlayer-main\AppMediaPlayer\obj\Debug\AppMediaPlay
 C:\Users\N3rdy\Desktop\AppMediaPlayer-main\AppMediaPlayer\obj\Debug\AppMediaPlayer.csproj.CopyComplete
 C:\Users\N3rdy\Desktop\AppMediaPlayer-main\AppMediaPlayer\obj\Debug\AppMediaPlayer.exe
 C:\Users\N3rdy\Desktop\AppMediaPlayer-main\AppMediaPlayer\obj\Debug\AppMediaPlayer.pdb
+<<<<<<< HEAD
+C:\Users\N3rdy\Desktop\AppMediaPlayer\AppMediaPlayer\bin\Debug\AppMediaPlayer.exe.config
+C:\Users\N3rdy\Desktop\AppMediaPlayer\AppMediaPlayer\bin\Debug\AppMediaPlayer.exe
+C:\Users\N3rdy\Desktop\AppMediaPlayer\AppMediaPlayer\bin\Debug\AppMediaPlayer.pdb
+C:\Users\N3rdy\Desktop\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.csproj.AssemblyReference.cache
+C:\Users\N3rdy\Desktop\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.loader.resources
+C:\Users\N3rdy\Desktop\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.Main.resources
+C:\Users\N3rdy\Desktop\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.Pages.Contas.resources
+C:\Users\N3rdy\Desktop\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.Pages.Inicio.resources
+C:\Users\N3rdy\Desktop\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.Pages.Login.resources
+C:\Users\N3rdy\Desktop\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.Pages.Musicas.resources
+C:\Users\N3rdy\Desktop\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.Pages.Playlists.resources
+C:\Users\N3rdy\Desktop\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.Pages.Registro.resources
+C:\Users\N3rdy\Desktop\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.Properties.Resources.resources
+C:\Users\N3rdy\Desktop\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.csproj.GenerateResource.cache
+C:\Users\N3rdy\Desktop\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.csproj.CoreCompileInputs.cache
+C:\Users\N3rdy\Desktop\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.exe
+C:\Users\N3rdy\Desktop\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.pdb
+C:\Users\N3rdy\Desktop\AppMediaPlayer\AppMediaPlayer\bin\Debug\ReaLTaiizor.dll
+C:\Users\N3rdy\Desktop\AppMediaPlayer\AppMediaPlayer\bin\Debug\ReaLTaiizor.xml
+C:\Users\N3rdy\Desktop\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.csproj.CopyComplete
+=======
 C:\Users\Arthu\AppMediaPlayer\AppMediaPlayer\bin\Debug\AppMediaPlayer.exe.config
 C:\Users\Arthu\AppMediaPlayer\AppMediaPlayer\bin\Debug\AppMediaPlayer.exe
 C:\Users\Arthu\AppMediaPlayer\AppMediaPlayer\bin\Debug\AppMediaPlayer.pdb
@@ -111,3 +133,4 @@ C:\Users\Arthu\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.csproj.Fod
 C:\Users\Arthu\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.csproj.CopyComplete
 C:\Users\Arthu\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.exe
 C:\Users\Arthu\AppMediaPlayer\AppMediaPlayer\obj\Debug\AppMediaPlayer.pdb
+>>>>>>> b2aa7f279007b86037665a78f6ae44283be24dc7

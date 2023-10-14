@@ -55,7 +55,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(74, 22);
             this.label1.TabIndex = 24;
-            this.label1.Text = "Usuario";
+            this.label1.Text = "Usuário";
             // 
             // btnFechar
             // 
@@ -77,6 +77,7 @@
             this.crownDockPanel1.Name = "crownDockPanel1";
             this.crownDockPanel1.Size = new System.Drawing.Size(846, 60);
             this.crownDockPanel1.TabIndex = 22;
+            this.crownDockPanel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.crownDockPanel1_MouseDown);
             // 
             // pnlAdicionar
             // 
