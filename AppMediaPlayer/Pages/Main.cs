@@ -1,4 +1,5 @@
 ﻿using AppMediaPlayer.Controller;
+using AppMediaPlayer.Model;
 using AppMediaPlayer.Pages;
 using System;
 using System.Collections.Generic;
@@ -6,6 +7,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -18,6 +20,13 @@ namespace AppMediaPlayer
         public Main()
         {
             InitializeComponent();
+
+            ManageUser uc = new ManageUser();
+            List<Usuario> uc2 = uc.GetLogged();
+            foreach (var v in uc2)
+            {
+                lbl_UserName.Text = v.nome;
+            }
         }
 
         void Change_Form(Panel painel, Form form)
@@ -101,6 +110,24 @@ namespace AppMediaPlayer
                 FormController.ShowForm(this, new Contas());
 
             return;
+        }
+
+        private void lbl_UserName_Click(object sender, EventArgs e)
+        {
+
+        }
+        public const int WM_NCLBUTTONDOWN = 0xA1;
+        public const int HT_CAPTION = 0x2;
+        [DllImportAttribute("user32.dll")]
+        public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
+        [DllImportAttribute("user32.dll")]
+        public static extern bool ReleaseCapture();
+  
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
         }
     }
 }

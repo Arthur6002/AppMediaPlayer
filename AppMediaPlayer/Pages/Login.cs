@@ -35,6 +35,7 @@ namespace AppMediaPlayer.Pages
             {
                 if (teste.nome == txtUsuario.TextButton && teste.senha == txtSenha.TextButton)
                 {
+                    mg.setUser(teste.nome);
                     FormController.ShowForm(this, new Main());
                     return;
                 }
