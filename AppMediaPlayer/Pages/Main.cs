@@ -7,6 +7,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
@@ -49,7 +50,6 @@ namespace AppMediaPlayer
         {
             Form musicas = new Pages.Musicas();
             Change_Form(pnlMain, musicas);
-            txtTitulo.Text = "Musicas";
         }
         private void lblMusicas_MouseEnter(object sender, EventArgs e)
         {
@@ -65,7 +65,6 @@ namespace AppMediaPlayer
         {
             Form playlist = new Pages.Playlists();
             Change_Form(pnlMain, playlist);
-            txtTitulo.Text = "Playlists";
         }
         private void lblPlayList_MouseEnter(object sender, EventArgs e)
         {
@@ -89,9 +88,12 @@ namespace AppMediaPlayer
         //Botão Play
         private void btnPlay_Click(object sender, EventArgs e)
         {
-            Console.WriteLine("click");
+            if (!Song.Playing && Song.Name == null || Song.Name == " " && Song.Artist == null)
+                return;
+
             if (!Song.Playing)
             {
+                
                 Music_Con.Resume();
                 btnPlay.Image = Properties.Resources.Pause;
                 Song.Playing = true;
@@ -141,10 +143,18 @@ namespace AppMediaPlayer
 
             if (!Song.Playing)
             {
+                if (Song.Name != null || Song.Name != " ")
+                    return;
+
+                btnPlay.Image = Properties.Resources.Play;
+                pbox_cover.Image = Properties.Resources.ph;
+
                 lbl_song_name.Visible = false;
                 lbl_song_author.Visible = false;
                 lbl_song_album.Visible = false;
-                btnPlay.Image = Properties.Resources.Play;
+                pbox_cover.Visible = false;
+
+                
 
                 Play = false;
 
@@ -152,6 +162,7 @@ namespace AppMediaPlayer
             else
             {
                 btnPlay.Image = Properties.Resources.Pause;
+
                 lbl_song_name.Text = Song.Name;
                 lbl_song_author.Text = Song.Artist;
                 lbl_song_album.Text = Song.Album;
@@ -161,6 +172,7 @@ namespace AppMediaPlayer
                 pbox_cover.Visible = true;
                 lbl_song_author.Visible = true;
                 lbl_song_album.Visible = true;
+
                 Play = true;
 
             }
@@ -168,9 +180,31 @@ namespace AppMediaPlayer
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void sldrVolume_Click(object sender, EventArgs e)
         {
-            Music_Con.Stop();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            Form creditos = new Creditos();
+            Change_Form(pnlMain, creditos);
+
+        }
+
+        private void lblMusicas_MouseHover(object sender, EventArgs e)
+        {   
+            Cursor.Current = Cursors.Default;
+        }
+
+        private void label1_MouseEnter(object sender, EventArgs e)
+        {
+            label1.Font = new Font(label1.Font.Name, label1.Font.Size, FontStyle.Underline);
+
+        }
+        private void label1_MouseLeave(object sender, EventArgs e)
+        {
+            label1.Font = new Font(label1.Font.Name, label1.Font.Size, FontStyle.Regular);
+
         }
     }
 }

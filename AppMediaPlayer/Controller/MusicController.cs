@@ -26,19 +26,22 @@ namespace AppMediaPlayer.Controller
         {
             if (Song.Playing)
             {
+                Console.WriteLine("Debug | Parando musica");
                 wo.Stop();
                 wo.Dispose();
+                Console.WriteLine("Debug | Trocando de musica");
             }
 
-            Song.Playing = true;
 
-            Thread.Sleep(500);
+            Console.WriteLine("Debug | Iniciando...");
+
 
 
             Song.Name = Name;
             Song.Artist = Artist;
             Song.Album = album;
             Song.Cover = cover;
+            Song.Playing = true;
 
 
 
@@ -58,7 +61,6 @@ namespace AppMediaPlayer.Controller
             Console.WriteLine("Debug | Parando...");
             wo.Stop();
             Song_Playing = false;
-
         }
 
         public void Pause()
@@ -70,6 +72,7 @@ namespace AppMediaPlayer.Controller
         {
             Console.WriteLine("Debug | Retomando...");
             wo.Play();
+
 
         }
         public void Back()
