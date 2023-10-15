@@ -5,4 +5,4 @@
 # AppMediaPlayer
 Aplicativo desenvolvido para Expotec da ETEC Joaquim Ferreira do Amaral, com ideia de criar um reprodutor de música
 
-Feito Por <a href="https://github.com/iagof-dev/">Iago Fragnan</a> e <a href="https://github.com/Arthur6002/">Arthur Cesar</a>.
+Feito Por <a href="https://github.com/iagof-dev/">Iago Fragnan</a> e <a href="https://github.com/Arthur6002/">Arthur Cesar de Freitas</a>.
