@@ -573,7 +573,10 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGCIPPfc/wM9MTlZ0/DN/gAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="sldrVolume.Colors" mimetype="application/x-microsoft.net.object.binary.base64">
+  <metadata name="Song_Refresher.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="slider_song.Colors" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAKABU3lzdGVtLkRyYXdpbmcsIFZlcnNpb249NC4wLjAuMCwgQ3Vs
         dHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iMDNmNWY3ZjExZDUwYTNhXV0sIG1zY29ybGliLCBW
@@ -589,7 +592,7 @@
         AAH0////+////woAAAAAAAAAAAAAAAAL
 </value>
   </data>
-  <data name="sldrVolume.Positions" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="slider_song.Positions" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAJoBbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1u
         ZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XV0sIG1zY29ybGliLCBWZXJzaW9u
@@ -625,7 +628,4 @@
         zMw+mpkZP83MTD8AAIA/AAAAAAAAAAAL
 </value>
   </data>
-  <metadata name="Song_Refresher.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
 </root>

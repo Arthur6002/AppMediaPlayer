@@ -327,6 +327,12 @@
     </Compile>
     <Compile Include="Model\Database.cs" />
     <Compile Include="Model\Song.cs" />
+    <Compile Include="Pages\Creditos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pages\Creditos.Designer.cs">
+      <DependentUpon>Creditos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -374,6 +380,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="loader.resx">
       <DependentUpon>loader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Creditos.resx">
+      <DependentUpon>Creditos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
@@ -430,6 +439,10 @@
     <None Include="Resources\PlayButton.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\star.png" />
+    <None Include="Resources\icon.png" />
+    <None Include="Resources\orgs.png" />
+    <None Include="Resources\ph.png" />
     <None Include="Resources\gorillaz_phsong.mp3" />
     <Content Include="Resources\gorillaz_placeholder.png" />
   </ItemGroup>
