@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppMediaPlayer.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -40,6 +41,8 @@ namespace AppMediaPlayer
             //    MessageBox.Show("Error 504 | Gateway Timeout");
             //    Environment.Exit(0);
             //}
+
+            Song.Playing = false;
 
 
             Form contas = new AppMediaPlayer.Pages.Contas();

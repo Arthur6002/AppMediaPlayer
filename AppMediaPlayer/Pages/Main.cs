@@ -16,7 +16,11 @@ namespace AppMediaPlayer
 {
     public partial class Main : Form
     {
+
         bool Play = true;
+
+        MusicController Music_Con = new MusicController();
+
         public Main()
         {
             InitializeComponent();
@@ -72,7 +76,7 @@ namespace AppMediaPlayer
             lblPlayList.Font = new Font(lblMusicas.Font.Name, lblMusicas.Font.Size, FontStyle.Regular);
         }
 
-       
+
         private void lblRecomendados_MouseEnter(object sender, EventArgs e)
         {
             lblRecomendados.Font = new Font(lblMusicas.Font.Name, lblMusicas.Font.Size, FontStyle.Underline);
@@ -85,16 +89,22 @@ namespace AppMediaPlayer
         //Botão Play
         private void btnPlay_Click(object sender, EventArgs e)
         {
-            if(Play)
+            Console.WriteLine("click");
+            if (!Song.Playing)
             {
+                Music_Con.Resume();
                 btnPlay.Image = Properties.Resources.Pause;
-                Play = false;
+                Song.Playing = true;
+
             }
             else
             {
+                Music_Con.Pause();
                 btnPlay.Image = Properties.Resources.Play;
-                Play = true;
+                Song.Playing = false;
             }
+
+
         }
 
 
@@ -112,22 +122,55 @@ namespace AppMediaPlayer
             return;
         }
 
-        private void lbl_UserName_Click(object sender, EventArgs e)
-        {
-
-        }
         public const int WM_NCLBUTTONDOWN = 0xA1;
         public const int HT_CAPTION = 0x2;
         [DllImportAttribute("user32.dll")]
         public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
         [DllImportAttribute("user32.dll")]
         public static extern bool ReleaseCapture();
-  
+
 
         private void Main_Load(object sender, EventArgs e)
         {
             ReleaseCapture();
             SendMessage(this.Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
+        }
+
+        private void Song_Refresher_Tick(object sender, EventArgs e)
+        {
+
+            if (!Song.Playing)
+            {
+                lbl_song_name.Visible = false;
+                lbl_song_author.Visible = false;
+                lbl_song_album.Visible = false;
+                btnPlay.Image = Properties.Resources.Play;
+
+                Play = false;
+
+            }
+            else
+            {
+                btnPlay.Image = Properties.Resources.Pause;
+                lbl_song_name.Text = Song.Name;
+                lbl_song_author.Text = Song.Artist;
+                lbl_song_album.Text = Song.Album;
+                pbox_cover.Load(Song.Cover);
+
+                lbl_song_name.Visible = true;
+                pbox_cover.Visible = true;
+                lbl_song_author.Visible = true;
+                lbl_song_album.Visible = true;
+                Play = true;
+
+            }
+            Console.WriteLine("Tocando? " + Song.Playing);
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Music_Con.Stop();
         }
     }
 }

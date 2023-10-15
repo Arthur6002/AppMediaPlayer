@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Musicas));
             this.nightLabel3 = new ReaLTaiizor.Controls.NightLabel();
             this.nightLabel4 = new ReaLTaiizor.Controls.NightLabel();
             this.hopePictureBox2 = new ReaLTaiizor.Controls.HopePictureBox();
@@ -66,11 +67,11 @@
             this.nightLabel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.nightLabel3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.nightLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(118)))), ((int)(((byte)(127)))));
-            this.nightLabel3.Location = new System.Drawing.Point(501, 244);
+            this.nightLabel3.Location = new System.Drawing.Point(495, 244);
             this.nightLabel3.Name = "nightLabel3";
-            this.nightLabel3.Size = new System.Drawing.Size(46, 15);
+            this.nightLabel3.Size = new System.Drawing.Size(60, 15);
             this.nightLabel3.TabIndex = 8;
-            this.nightLabel3.Text = "Gorillaz";
+            this.nightLabel3.Text = "Yung Lixo";
             this.nightLabel3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // nightLabel4
@@ -79,17 +80,17 @@
             this.nightLabel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.nightLabel4.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.nightLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(118)))), ((int)(((byte)(127)))));
-            this.nightLabel4.Location = new System.Drawing.Point(487, 229);
+            this.nightLabel4.Location = new System.Drawing.Point(468, 229);
             this.nightLabel4.Name = "nightLabel4";
-            this.nightLabel4.Size = new System.Drawing.Size(74, 15);
+            this.nightLabel4.Size = new System.Drawing.Size(108, 15);
             this.nightLabel4.TabIndex = 7;
-            this.nightLabel4.Text = "Demon Days";
+            this.nightLabel4.Text = "Diamantes e Peixes";
             this.nightLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // hopePictureBox2
             // 
             this.hopePictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
-            this.hopePictureBox2.Image = global::AppMediaPlayer.Properties.Resources._71M8yXz6o7L__UF1000_1000_QL80_;
+            this.hopePictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("hopePictureBox2.Image")));
             this.hopePictureBox2.Location = new System.Drawing.Point(429, 45);
             this.hopePictureBox2.Name = "hopePictureBox2";
             this.hopePictureBox2.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
@@ -99,6 +100,7 @@
             this.hopePictureBox2.TabIndex = 6;
             this.hopePictureBox2.TabStop = false;
             this.hopePictureBox2.TextRenderingType = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.hopePictureBox2.Click += new System.EventHandler(this.hopePictureBox2_Click);
             // 
             // cyberGroupBox1
             // 
@@ -161,7 +163,7 @@
             // hopePictureBox4
             // 
             this.hopePictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
-            this.hopePictureBox4.Image = global::AppMediaPlayer.Properties.Resources._71M8yXz6o7L__UF1000_1000_QL80_;
+            this.hopePictureBox4.Image = global::AppMediaPlayer.Properties.Resources.gorillaz_placeholder;
             this.hopePictureBox4.Location = new System.Drawing.Point(741, 45);
             this.hopePictureBox4.Name = "hopePictureBox4";
             this.hopePictureBox4.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
@@ -233,7 +235,7 @@
             // hopePictureBox1
             // 
             this.hopePictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
-            this.hopePictureBox1.Image = global::AppMediaPlayer.Properties.Resources._71M8yXz6o7L__UF1000_1000_QL80_;
+            this.hopePictureBox1.Image = global::AppMediaPlayer.Properties.Resources.gorillaz_placeholder;
             this.hopePictureBox1.Location = new System.Drawing.Point(118, 45);
             this.hopePictureBox1.Name = "hopePictureBox1";
             this.hopePictureBox1.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
@@ -243,6 +245,7 @@
             this.hopePictureBox1.TabIndex = 29;
             this.hopePictureBox1.TabStop = false;
             this.hopePictureBox1.TextRenderingType = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.hopePictureBox1.Click += new System.EventHandler(this.hopePictureBox1_Click);
             // 
             // cyberGroupBox2
             // 
@@ -331,7 +334,7 @@
             // hopePictureBox3
             // 
             this.hopePictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
-            this.hopePictureBox3.Image = global::AppMediaPlayer.Properties.Resources._71M8yXz6o7L__UF1000_1000_QL80_;
+            this.hopePictureBox3.Image = global::AppMediaPlayer.Properties.Resources.gorillaz_placeholder;
             this.hopePictureBox3.Location = new System.Drawing.Point(118, 301);
             this.hopePictureBox3.Name = "hopePictureBox3";
             this.hopePictureBox3.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
@@ -345,7 +348,7 @@
             // hopePictureBox5
             // 
             this.hopePictureBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
-            this.hopePictureBox5.Image = global::AppMediaPlayer.Properties.Resources._71M8yXz6o7L__UF1000_1000_QL80_;
+            this.hopePictureBox5.Image = global::AppMediaPlayer.Properties.Resources.gorillaz_placeholder;
             this.hopePictureBox5.Location = new System.Drawing.Point(741, 301);
             this.hopePictureBox5.Name = "hopePictureBox5";
             this.hopePictureBox5.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
@@ -449,7 +452,7 @@
             // hopePictureBox6
             // 
             this.hopePictureBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
-            this.hopePictureBox6.Image = global::AppMediaPlayer.Properties.Resources._71M8yXz6o7L__UF1000_1000_QL80_;
+            this.hopePictureBox6.Image = global::AppMediaPlayer.Properties.Resources.gorillaz_placeholder;
             this.hopePictureBox6.Location = new System.Drawing.Point(429, 301);
             this.hopePictureBox6.Name = "hopePictureBox6";
             this.hopePictureBox6.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
