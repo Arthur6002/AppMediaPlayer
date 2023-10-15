@@ -51,7 +51,7 @@
             this.btnFechar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
             this.btnFechar.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFechar.ForeColor = System.Drawing.Color.White;
-            this.btnFechar.Location = new System.Drawing.Point(572, 12);
+            this.btnFechar.Location = new System.Drawing.Point(754, 12);
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.Size = new System.Drawing.Size(34, 33);
             this.btnFechar.TabIndex = 13;
@@ -82,7 +82,7 @@
             this.txtUsuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
             this.txtUsuario.Lighting = false;
             this.txtUsuario.LinearGradientPen = false;
-            this.txtUsuario.Location = new System.Drawing.Point(198, 107);
+            this.txtUsuario.Location = new System.Drawing.Point(289, 80);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.PenWidth = 15;
             this.txtUsuario.RGB = false;
@@ -112,7 +112,7 @@
             this.txtEmail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
             this.txtEmail.Lighting = false;
             this.txtEmail.LinearGradientPen = false;
-            this.txtEmail.Location = new System.Drawing.Point(198, 193);
+            this.txtEmail.Location = new System.Drawing.Point(289, 166);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.PenWidth = 15;
             this.txtEmail.RGB = false;
@@ -142,7 +142,7 @@
             this.txtSenha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
             this.txtSenha.Lighting = false;
             this.txtSenha.LinearGradientPen = false;
-            this.txtSenha.Location = new System.Drawing.Point(198, 278);
+            this.txtSenha.Location = new System.Drawing.Point(289, 251);
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.Password = true;
             this.txtSenha.PenWidth = 15;
@@ -183,7 +183,7 @@
             this.btnRegistro.Lighting = false;
             this.btnRegistro.LinearGradient_Background = false;
             this.btnRegistro.LinearGradientPen = false;
-            this.btnRegistro.Location = new System.Drawing.Point(232, 399);
+            this.btnRegistro.Location = new System.Drawing.Point(323, 372);
             this.btnRegistro.Name = "btnRegistro";
             this.btnRegistro.PenWidth = 15;
             this.btnRegistro.Rounding = true;
@@ -204,7 +204,7 @@
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
             this.label1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(268, 18);
+            this.label1.Location = new System.Drawing.Point(359, 20);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(82, 22);
             this.label1.TabIndex = 20;
@@ -214,7 +214,7 @@
             // 
             this.foxLabel1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.foxLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(88)))), ((int)(((byte)(100)))));
-            this.foxLabel1.Location = new System.Drawing.Point(218, 89);
+            this.foxLabel1.Location = new System.Drawing.Point(309, 62);
             this.foxLabel1.Name = "foxLabel1";
             this.foxLabel1.Size = new System.Drawing.Size(65, 19);
             this.foxLabel1.TabIndex = 21;
@@ -224,7 +224,7 @@
             // 
             this.foxLabel2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.foxLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(88)))), ((int)(((byte)(100)))));
-            this.foxLabel2.Location = new System.Drawing.Point(218, 173);
+            this.foxLabel2.Location = new System.Drawing.Point(309, 146);
             this.foxLabel2.Name = "foxLabel2";
             this.foxLabel2.Size = new System.Drawing.Size(65, 19);
             this.foxLabel2.TabIndex = 22;
@@ -234,7 +234,7 @@
             // 
             this.foxLabel3.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.foxLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(88)))), ((int)(((byte)(100)))));
-            this.foxLabel3.Location = new System.Drawing.Point(218, 261);
+            this.foxLabel3.Location = new System.Drawing.Point(309, 234);
             this.foxLabel3.Name = "foxLabel3";
             this.foxLabel3.Size = new System.Drawing.Size(65, 19);
             this.foxLabel3.TabIndex = 23;
@@ -267,7 +267,7 @@
             this.rdbMostrarSenha.LinearGradient_Background = false;
             this.rdbMostrarSenha.LinearGradient_Value = false;
             this.rdbMostrarSenha.LinearGradientPen = false;
-            this.rdbMostrarSenha.Location = new System.Drawing.Point(202, 346);
+            this.rdbMostrarSenha.Location = new System.Drawing.Point(293, 319);
             this.rdbMostrarSenha.Name = "rdbMostrarSenha";
             this.rdbMostrarSenha.RGB = false;
             this.rdbMostrarSenha.Rounding = true;
@@ -312,7 +312,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
-            this.pictureBox1.Image = global::AppMediaPlayer.Properties.Resources.logo__2_;
+            this.pictureBox1.Image = global::AppMediaPlayer.Properties.Resources.logo_improved;
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(33, 33);
@@ -325,7 +325,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(65)))), ((int)(((byte)(70)))));
-            this.ClientSize = new System.Drawing.Size(618, 500);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.foxLinkLabel1);
             this.Controls.Add(this.foxLabel4);

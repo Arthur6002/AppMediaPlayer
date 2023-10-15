@@ -28,50 +28,42 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblRecomendados = new System.Windows.Forms.Label();
             this.lblPlayList = new System.Windows.Forms.Label();
             this.lblMusicas = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-<<<<<<< HEAD
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lbl_UserName = new System.Windows.Forms.Label();
             this.pnlControles = new System.Windows.Forms.Panel();
-            this.btnPlay = new System.Windows.Forms.PictureBox();
-            this.pnlMain = new System.Windows.Forms.Panel();
-            this.txtTitulo = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-=======
-            this.label1 = new System.Windows.Forms.Label();
-            this.pnlControles = new System.Windows.Forms.Panel();
-            this.pnlMain = new System.Windows.Forms.Panel();
-            this.txtTitulo = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.crownDockPanel1 = new ReaLTaiizor.Docking.Crown.CrownDockPanel();
-            this.btnPlay = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
->>>>>>> b2aa7f279007b86037665a78f6ae44283be24dc7
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.btnBack = new System.Windows.Forms.PictureBox();
-            this.btnForward = new System.Windows.Forms.PictureBox();
-            this.parrotSlider1 = new ReaLTaiizor.Controls.ParrotSlider();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.sldrVolume = new ReaLTaiizor.Controls.ParrotSlider();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.lbl_song_author = new System.Windows.Forms.Label();
-            this.lbl_song_album = new System.Windows.Forms.Label();
             this.lbl_song_name = new System.Windows.Forms.Label();
+            this.lbl_song_album = new System.Windows.Forms.Label();
+            this.lbl_song_author = new System.Windows.Forms.Label();
+            this.pbox_cover = new System.Windows.Forms.PictureBox();
+            this.sldrVolume = new ReaLTaiizor.Controls.ParrotSlider();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.parrotSlider1 = new ReaLTaiizor.Controls.ParrotSlider();
+            this.btnForward = new System.Windows.Forms.PictureBox();
+            this.btnBack = new System.Windows.Forms.PictureBox();
+            this.btnPlay = new System.Windows.Forms.PictureBox();
+            this.pnlMain = new System.Windows.Forms.Panel();
+            this.txtTitulo = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.Song_Refresher = new System.Windows.Forms.Timer(this.components);
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnlControles.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbox_cover)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnForward)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnBack)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnPlay)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnBack)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnForward)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -140,7 +132,6 @@
             this.panel2.Size = new System.Drawing.Size(227, 100);
             this.panel2.TabIndex = 5;
             // 
-<<<<<<< HEAD
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
@@ -164,29 +155,15 @@
             this.lbl_UserName.Size = new System.Drawing.Size(68, 23);
             this.lbl_UserName.TabIndex = 1;
             this.lbl_UserName.Text = "Usuario";
-            this.lbl_UserName.Click += new System.EventHandler(this.lbl_UserName_Click);
-=======
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 12.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(101, 22);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 23);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Usuario";
->>>>>>> b2aa7f279007b86037665a78f6ae44283be24dc7
             // 
             // pnlControles
             // 
             this.pnlControles.BackColor = System.Drawing.Color.Pink;
-<<<<<<< HEAD
+            this.pnlControles.Controls.Add(this.button1);
             this.pnlControles.Controls.Add(this.lbl_song_name);
             this.pnlControles.Controls.Add(this.lbl_song_album);
             this.pnlControles.Controls.Add(this.lbl_song_author);
-            this.pnlControles.Controls.Add(this.pictureBox4);
+            this.pnlControles.Controls.Add(this.pbox_cover);
             this.pnlControles.Controls.Add(this.sldrVolume);
             this.pnlControles.Controls.Add(this.pictureBox3);
             this.pnlControles.Controls.Add(this.parrotSlider1);
@@ -197,6 +174,139 @@
             this.pnlControles.Name = "pnlControles";
             this.pnlControles.Size = new System.Drawing.Size(1269, 124);
             this.pnlControles.TabIndex = 1;
+            // 
+            // lbl_song_name
+            // 
+            this.lbl_song_name.AutoSize = true;
+            this.lbl_song_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_song_name.ForeColor = System.Drawing.Color.Black;
+            this.lbl_song_name.Location = new System.Drawing.Point(130, 70);
+            this.lbl_song_name.Name = "lbl_song_name";
+            this.lbl_song_name.Size = new System.Drawing.Size(87, 13);
+            this.lbl_song_name.TabIndex = 11;
+            this.lbl_song_name.Text = "Feel Good Inc";
+            this.lbl_song_name.Visible = false;
+            // 
+            // lbl_song_album
+            // 
+            this.lbl_song_album.AutoSize = true;
+            this.lbl_song_album.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_song_album.ForeColor = System.Drawing.Color.Black;
+            this.lbl_song_album.Location = new System.Drawing.Point(130, 83);
+            this.lbl_song_album.Name = "lbl_song_album";
+            this.lbl_song_album.Size = new System.Drawing.Size(78, 13);
+            this.lbl_song_album.TabIndex = 10;
+            this.lbl_song_album.Text = "Demon Days";
+            this.lbl_song_album.Visible = false;
+            // 
+            // lbl_song_author
+            // 
+            this.lbl_song_author.AutoSize = true;
+            this.lbl_song_author.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_song_author.ForeColor = System.Drawing.Color.Black;
+            this.lbl_song_author.Location = new System.Drawing.Point(130, 96);
+            this.lbl_song_author.Name = "lbl_song_author";
+            this.lbl_song_author.Size = new System.Drawing.Size(49, 13);
+            this.lbl_song_author.TabIndex = 9;
+            this.lbl_song_author.Text = "Gorillaz";
+            this.lbl_song_author.Visible = false;
+            // 
+            // pbox_cover
+            // 
+            this.pbox_cover.Image = global::AppMediaPlayer.Properties.Resources.gorillaz_placeholder;
+            this.pbox_cover.Location = new System.Drawing.Point(24, 13);
+            this.pbox_cover.Name = "pbox_cover";
+            this.pbox_cover.Size = new System.Drawing.Size(102, 99);
+            this.pbox_cover.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbox_cover.TabIndex = 8;
+            this.pbox_cover.TabStop = false;
+            this.pbox_cover.Visible = false;
+            // 
+            // sldrVolume
+            // 
+            this.sldrVolume.BarThickness = 4;
+            this.sldrVolume.BigStepIncrement = 10;
+            this.sldrVolume.Colors = ((System.Collections.Generic.List<System.Drawing.Color>)(resources.GetObject("sldrVolume.Colors")));
+            this.sldrVolume.CompositingQualityType = System.Drawing.Drawing2D.CompositingQuality.HighQuality;
+            this.sldrVolume.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.sldrVolume.FilledColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(119)))), ((int)(((byte)(215)))));
+            this.sldrVolume.InterpolationType = System.Drawing.Drawing2D.InterpolationMode.HighQualityBilinear;
+            this.sldrVolume.KnobColor = System.Drawing.Color.Gray;
+            this.sldrVolume.KnobImage = null;
+            this.sldrVolume.Location = new System.Drawing.Point(1128, 56);
+            this.sldrVolume.Max = 100;
+            this.sldrVolume.Name = "sldrVolume";
+            this.sldrVolume.Percentage = 0;
+            this.sldrVolume.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
+            this.sldrVolume.Positions = ((System.Collections.Generic.List<float>)(resources.GetObject("sldrVolume.Positions")));
+            this.sldrVolume.QuickHopping = false;
+            this.sldrVolume.Size = new System.Drawing.Size(117, 20);
+            this.sldrVolume.SliderStyle = ReaLTaiizor.Controls.ParrotSlider.Style.Windows10;
+            this.sldrVolume.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+            this.sldrVolume.TabIndex = 7;
+            this.sldrVolume.Text = "parrotSlider2";
+            this.sldrVolume.UnfilledColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(169)))), ((int)(((byte)(219)))));
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pictureBox3.Image = global::AppMediaPlayer.Properties.Resources.Play;
+            this.pictureBox3.Location = new System.Drawing.Point(1078, 40);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(44, 51);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 6;
+            this.pictureBox3.TabStop = false;
+            // 
+            // parrotSlider1
+            // 
+            this.parrotSlider1.BarThickness = 4;
+            this.parrotSlider1.BigStepIncrement = 10;
+            this.parrotSlider1.Colors = ((System.Collections.Generic.List<System.Drawing.Color>)(resources.GetObject("parrotSlider1.Colors")));
+            this.parrotSlider1.CompositingQualityType = System.Drawing.Drawing2D.CompositingQuality.HighQuality;
+            this.parrotSlider1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.parrotSlider1.FilledColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(119)))), ((int)(((byte)(215)))));
+            this.parrotSlider1.InterpolationType = System.Drawing.Drawing2D.InterpolationMode.HighQualityBilinear;
+            this.parrotSlider1.KnobColor = System.Drawing.Color.Gray;
+            this.parrotSlider1.KnobImage = null;
+            this.parrotSlider1.Location = new System.Drawing.Point(429, 82);
+            this.parrotSlider1.Max = 100;
+            this.parrotSlider1.Name = "parrotSlider1";
+            this.parrotSlider1.Percentage = 0;
+            this.parrotSlider1.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
+            this.parrotSlider1.Positions = ((System.Collections.Generic.List<float>)(resources.GetObject("parrotSlider1.Positions")));
+            this.parrotSlider1.QuickHopping = false;
+            this.parrotSlider1.Size = new System.Drawing.Size(548, 20);
+            this.parrotSlider1.SliderStyle = ReaLTaiizor.Controls.ParrotSlider.Style.Windows10;
+            this.parrotSlider1.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+            this.parrotSlider1.TabIndex = 5;
+            this.parrotSlider1.Text = "parrotSlider1";
+            this.parrotSlider1.UnfilledColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(169)))), ((int)(((byte)(219)))));
+            // 
+            // btnForward
+            // 
+            this.btnForward.BackColor = System.Drawing.Color.Transparent;
+            this.btnForward.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnForward.Image = global::AppMediaPlayer.Properties.Resources.Play;
+            this.btnForward.Location = new System.Drawing.Point(734, 21);
+            this.btnForward.Name = "btnForward";
+            this.btnForward.Size = new System.Drawing.Size(51, 55);
+            this.btnForward.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnForward.TabIndex = 4;
+            this.btnForward.TabStop = false;
+            // 
+            // btnBack
+            // 
+            this.btnBack.BackColor = System.Drawing.Color.Transparent;
+            this.btnBack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnBack.Image = global::AppMediaPlayer.Properties.Resources.Play;
+            this.btnBack.Location = new System.Drawing.Point(620, 21);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(51, 55);
+            this.btnBack.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnBack.TabIndex = 3;
+            this.btnBack.TabStop = false;
             // 
             // btnPlay
             // 
@@ -218,23 +328,6 @@
             this.pnlMain.MinimumSize = new System.Drawing.Size(261, 65);
             this.pnlMain.Name = "pnlMain";
             this.pnlMain.Size = new System.Drawing.Size(1046, 544);
-=======
-            this.pnlControles.Controls.Add(this.btnPlay);
-            this.pnlControles.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlControles.Location = new System.Drawing.Point(227, 641);
-            this.pnlControles.Name = "pnlControles";
-            this.pnlControles.Size = new System.Drawing.Size(1045, 124);
-            this.pnlControles.TabIndex = 1;
-            // 
-            // pnlMain
-            // 
-            this.pnlMain.BackColor = System.Drawing.Color.Green;
-            this.pnlMain.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlMain.Location = new System.Drawing.Point(227, 99);
-            this.pnlMain.MinimumSize = new System.Drawing.Size(261, 65);
-            this.pnlMain.Name = "pnlMain";
-            this.pnlMain.Size = new System.Drawing.Size(1045, 542);
->>>>>>> b2aa7f279007b86037665a78f6ae44283be24dc7
             this.pnlMain.TabIndex = 2;
             // 
             // txtTitulo
@@ -263,7 +356,6 @@
             this.label3.Text = "X";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-<<<<<<< HEAD
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(54)))));
@@ -271,178 +363,26 @@
             this.pictureBox2.Location = new System.Drawing.Point(600, 21);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(68, 52);
-=======
-            // crownDockPanel1
-            // 
-            this.crownDockPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
-            this.crownDockPanel1.Location = new System.Drawing.Point(227, 0);
-            this.crownDockPanel1.Name = "crownDockPanel1";
-            this.crownDockPanel1.Size = new System.Drawing.Size(1045, 100);
-            this.crownDockPanel1.TabIndex = 26;
-            // 
-            // btnPlay
-            // 
-            this.btnPlay.BackColor = System.Drawing.Color.Transparent;
-            this.btnPlay.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnPlay.Image = global::AppMediaPlayer.Properties.Resources.Play;
-            this.btnPlay.Location = new System.Drawing.Point(478, 43);
-            this.btnPlay.Name = "btnPlay";
-            this.btnPlay.Size = new System.Drawing.Size(67, 69);
-            this.btnPlay.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.btnPlay.TabIndex = 2;
-            this.btnPlay.TabStop = false;
-            this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(26, 14);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(67, 69);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
-            this.pictureBox2.Image = global::AppMediaPlayer.Properties.Resources.logo__2_;
-            this.pictureBox2.Location = new System.Drawing.Point(233, 15);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(60, 60);
->>>>>>> b2aa7f279007b86037665a78f6ae44283be24dc7
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 29;
             this.pictureBox2.TabStop = false;
             // 
-<<<<<<< HEAD
-            // btnBack
+            // Song_Refresher
             // 
-            this.btnBack.BackColor = System.Drawing.Color.Transparent;
-            this.btnBack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnBack.Image = global::AppMediaPlayer.Properties.Resources.Play;
-            this.btnBack.Location = new System.Drawing.Point(620, 21);
-            this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(51, 55);
-            this.btnBack.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnBack.TabIndex = 3;
-            this.btnBack.TabStop = false;
+            this.Song_Refresher.Enabled = true;
+            this.Song_Refresher.Interval = 50;
+            this.Song_Refresher.Tick += new System.EventHandler(this.Song_Refresher_Tick);
             // 
-            // btnForward
+            // button1
             // 
-            this.btnForward.BackColor = System.Drawing.Color.Transparent;
-            this.btnForward.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnForward.Image = global::AppMediaPlayer.Properties.Resources.Play;
-            this.btnForward.Location = new System.Drawing.Point(734, 21);
-            this.btnForward.Name = "btnForward";
-            this.btnForward.Size = new System.Drawing.Size(51, 55);
-            this.btnForward.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnForward.TabIndex = 4;
-            this.btnForward.TabStop = false;
+            this.button1.Location = new System.Drawing.Point(329, 54);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(82, 21);
+            this.button1.TabIndex = 12;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // parrotSlider1
-            // 
-            this.parrotSlider1.BarThickness = 4;
-            this.parrotSlider1.BigStepIncrement = 10;
-            this.parrotSlider1.Colors = ((System.Collections.Generic.List<System.Drawing.Color>)(resources.GetObject("parrotSlider1.Colors")));
-            this.parrotSlider1.CompositingQualityType = System.Drawing.Drawing2D.CompositingQuality.HighQuality;
-            this.parrotSlider1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.parrotSlider1.FilledColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(119)))), ((int)(((byte)(215)))));
-            this.parrotSlider1.InterpolationType = System.Drawing.Drawing2D.InterpolationMode.HighQualityBilinear;
-            this.parrotSlider1.KnobColor = System.Drawing.Color.Gray;
-            this.parrotSlider1.KnobImage = null;
-            this.parrotSlider1.Location = new System.Drawing.Point(429, 82);
-            this.parrotSlider1.Max = 100;
-            this.parrotSlider1.Name = "parrotSlider1";
-            this.parrotSlider1.Percentage = 0;
-            this.parrotSlider1.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
-            this.parrotSlider1.Positions = ((System.Collections.Generic.List<float>)(resources.GetObject("parrotSlider1.Positions")));
-            this.parrotSlider1.QuickHopping = false;
-            this.parrotSlider1.Size = new System.Drawing.Size(548, 20);
-            this.parrotSlider1.SliderStyle = ReaLTaiizor.Controls.ParrotSlider.Style.Windows10;
-            this.parrotSlider1.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
-            this.parrotSlider1.TabIndex = 5;
-            this.parrotSlider1.Text = "parrotSlider1";
-            this.parrotSlider1.UnfilledColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(169)))), ((int)(((byte)(219)))));
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox3.Image = global::AppMediaPlayer.Properties.Resources.Play;
-            this.pictureBox3.Location = new System.Drawing.Point(1078, 40);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(44, 51);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 6;
-            this.pictureBox3.TabStop = false;
-            // 
-            // sldrVolume
-            // 
-            this.sldrVolume.BarThickness = 4;
-            this.sldrVolume.BigStepIncrement = 10;
-            this.sldrVolume.Colors = ((System.Collections.Generic.List<System.Drawing.Color>)(resources.GetObject("sldrVolume.Colors")));
-            this.sldrVolume.CompositingQualityType = System.Drawing.Drawing2D.CompositingQuality.HighQuality;
-            this.sldrVolume.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.sldrVolume.FilledColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(119)))), ((int)(((byte)(215)))));
-            this.sldrVolume.InterpolationType = System.Drawing.Drawing2D.InterpolationMode.HighQualityBilinear;
-            this.sldrVolume.KnobColor = System.Drawing.Color.Gray;
-            this.sldrVolume.KnobImage = null;
-            this.sldrVolume.Location = new System.Drawing.Point(1128, 56);
-            this.sldrVolume.Max = 100;
-            this.sldrVolume.Name = "sldrVolume";
-            this.sldrVolume.Percentage = 0;
-            this.sldrVolume.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
-            this.sldrVolume.Positions = ((System.Collections.Generic.List<float>)(resources.GetObject("sldrVolume.Positions")));
-            this.sldrVolume.QuickHopping = false;
-            this.sldrVolume.Size = new System.Drawing.Size(117, 20);
-            this.sldrVolume.SliderStyle = ReaLTaiizor.Controls.ParrotSlider.Style.Windows10;
-            this.sldrVolume.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
-            this.sldrVolume.TabIndex = 7;
-            this.sldrVolume.Text = "parrotSlider2";
-            this.sldrVolume.UnfilledColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(169)))), ((int)(((byte)(219)))));
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::AppMediaPlayer.Properties.Resources._71M8yXz6o7L__UF1000_1000_QL80_;
-            this.pictureBox4.Location = new System.Drawing.Point(24, 13);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(102, 99);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 8;
-            this.pictureBox4.TabStop = false;
-            // 
-            // lbl_song_author
-            // 
-            this.lbl_song_author.AutoSize = true;
-            this.lbl_song_author.Location = new System.Drawing.Point(130, 96);
-            this.lbl_song_author.Name = "lbl_song_author";
-            this.lbl_song_author.Size = new System.Drawing.Size(41, 13);
-            this.lbl_song_author.TabIndex = 9;
-            this.lbl_song_author.Text = "Gorillaz";
-            // 
-            // lbl_song_album
-            // 
-            this.lbl_song_album.AutoSize = true;
-            this.lbl_song_album.Location = new System.Drawing.Point(130, 83);
-            this.lbl_song_album.Name = "lbl_song_album";
-            this.lbl_song_album.Size = new System.Drawing.Size(68, 13);
-            this.lbl_song_album.TabIndex = 10;
-            this.lbl_song_album.Text = "Demon Days";
-            // 
-            // lbl_song_name
-            // 
-            this.lbl_song_name.AutoSize = true;
-            this.lbl_song_name.Location = new System.Drawing.Point(130, 70);
-            this.lbl_song_name.Name = "lbl_song_name";
-            this.lbl_song_name.Size = new System.Drawing.Size(74, 13);
-            this.lbl_song_name.TabIndex = 11;
-            this.lbl_song_name.Text = "Feel Good Inc";
-            // 
-=======
->>>>>>> b2aa7f279007b86037665a78f6ae44283be24dc7
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -467,12 +407,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.pnlControles.ResumeLayout(false);
             this.pnlControles.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbox_cover)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnForward)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnBack)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnPlay)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnBack)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnForward)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -501,7 +441,9 @@
         private System.Windows.Forms.Label lbl_song_name;
         private System.Windows.Forms.Label lbl_song_album;
         private System.Windows.Forms.Label lbl_song_author;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pbox_cover;
+        private System.Windows.Forms.Timer Song_Refresher;
+        private System.Windows.Forms.Button button1;
     }
 }
 

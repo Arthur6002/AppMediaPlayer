@@ -38,11 +38,8 @@
             this.foxLinkLabel1 = new ReaLTaiizor.Controls.FoxLinkLabel();
             this.foxLabel3 = new ReaLTaiizor.Controls.FoxLabel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-<<<<<<< HEAD
             this.btnFechar = new System.Windows.Forms.Label();
             this.crownDockPanel1 = new ReaLTaiizor.Docking.Crown.CrownDockPanel();
-=======
->>>>>>> b2aa7f279007b86037665a78f6ae44283be24dc7
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -251,11 +248,12 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
-<<<<<<< HEAD
-            this.pictureBox1.Location = new System.Drawing.Point(16, 8);
+            this.pictureBox1.Image = global::AppMediaPlayer.Properties.Resources.logo_improved;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 9);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(33, 33);
-            this.pictureBox1.TabIndex = 32;
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 29;
             this.pictureBox1.TabStop = false;
             // 
             // btnFechar
@@ -278,29 +276,14 @@
             this.crownDockPanel1.Size = new System.Drawing.Size(846, 60);
             this.crownDockPanel1.TabIndex = 30;
             // 
-=======
-            this.pictureBox1.Image = global::AppMediaPlayer.Properties.Resources.logo__2_;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 9);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(33, 33);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 29;
-            this.pictureBox1.TabStop = false;
-            // 
->>>>>>> b2aa7f279007b86037665a78f6ae44283be24dc7
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(65)))), ((int)(((byte)(70)))));
-<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnFechar);
-=======
-            this.ClientSize = new System.Drawing.Size(618, 440);
             this.Controls.Add(this.pictureBox1);
->>>>>>> b2aa7f279007b86037665a78f6ae44283be24dc7
             this.Controls.Add(this.foxLabel3);
             this.Controls.Add(this.foxLinkLabel1);
             this.Controls.Add(this.label1);
@@ -332,10 +315,7 @@
         private ReaLTaiizor.Controls.FoxLinkLabel foxLinkLabel1;
         private ReaLTaiizor.Controls.FoxLabel foxLabel3;
         private System.Windows.Forms.PictureBox pictureBox1;
-<<<<<<< HEAD
         private System.Windows.Forms.Label btnFechar;
         private ReaLTaiizor.Docking.Crown.CrownDockPanel crownDockPanel1;
-=======
->>>>>>> b2aa7f279007b86037665a78f6ae44283be24dc7
     }
 }

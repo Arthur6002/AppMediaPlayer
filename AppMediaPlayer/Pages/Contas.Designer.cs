@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Contas));
             this.label1 = new System.Windows.Forms.Label();
             this.btnFechar = new System.Windows.Forms.Label();
             this.crownDockPanel1 = new ReaLTaiizor.Docking.Crown.CrownDockPanel();
@@ -56,6 +57,7 @@
             this.label1.Size = new System.Drawing.Size(74, 22);
             this.label1.TabIndex = 24;
             this.label1.Text = "Usuário";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // btnFechar
             // 
@@ -87,7 +89,6 @@
             this.pnlAdicionar.Name = "pnlAdicionar";
             this.pnlAdicionar.Size = new System.Drawing.Size(183, 193);
             this.pnlAdicionar.TabIndex = 27;
-            this.pnlAdicionar.Click += new System.EventHandler(this.pnlAdicionar_Click);
             // 
             // pcbAdicionar
             // 
@@ -98,7 +99,6 @@
             this.pcbAdicionar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pcbAdicionar.TabIndex = 0;
             this.pcbAdicionar.TabStop = false;
-            this.pcbAdicionar.Click += new System.EventHandler(this.pcbAdicionar_Click);
             // 
             // label2
             // 
@@ -146,7 +146,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
-            this.pictureBox1.Image = global::AppMediaPlayer.Properties.Resources.logo__2_;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(33, 33);
