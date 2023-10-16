@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://socialify.git.ci/iagof-dev/AppMediaPlayer/image?description=1&font=Source%20Code%20Pro&language=1&name=1&pattern=Solid&theme=Auto" alt="AppMediaPlayer" width="640" height="320" />
+<img src="https://socialify.git.ci/iagof-dev/AppMediaPlayer/image?description=1&language=1&name=1&pattern=Solid&theme=Auto" alt="AppMediaPlayer" width="640" height="320" />
 </div>
 
 # 🎵 AppMediaPlayer
