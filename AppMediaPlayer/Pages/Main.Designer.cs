@@ -33,7 +33,11 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+<<<<<<< HEAD
             this.lblInicio = new System.Windows.Forms.Label();
+=======
+            this.lblRecomendados = new System.Windows.Forms.Label();
+>>>>>>> baa08e54af6d07656c2d0156ecfe14c0825dc408
             this.lblPlayList = new System.Windows.Forms.Label();
             this.lblMusicas = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -53,8 +57,13 @@
             this.lbl_song_album = new System.Windows.Forms.Label();
             this.lbl_song_name = new System.Windows.Forms.Label();
             this.pnlControles = new System.Windows.Forms.Panel();
+<<<<<<< HEAD
             this.parrotSlider1 = new ReaLTaiizor.Controls.ParrotSlider();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+=======
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.parrotSlider1 = new ReaLTaiizor.Controls.ParrotSlider();
+>>>>>>> baa08e54af6d07656c2d0156ecfe14c0825dc408
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel2.SuspendLayout();
@@ -73,7 +82,11 @@
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(54)))));
             this.panel1.Controls.Add(this.pictureBox4);
             this.panel1.Controls.Add(this.label1);
+<<<<<<< HEAD
             this.panel1.Controls.Add(this.lblInicio);
+=======
+            this.panel1.Controls.Add(this.lblRecomendados);
+>>>>>>> baa08e54af6d07656c2d0156ecfe14c0825dc408
             this.panel1.Controls.Add(this.lblPlayList);
             this.panel1.Controls.Add(this.lblMusicas);
             this.panel1.Controls.Add(this.panel2);
@@ -84,6 +97,33 @@
             this.panel1.TabIndex = 0;
             // 
             // pictureBox4
+<<<<<<< HEAD
+=======
+            // 
+            this.pictureBox4.Image = global::AppMediaPlayer.Properties.Resources.star;
+            this.pictureBox4.Location = new System.Drawing.Point(49, 596);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(37, 31);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 9;
+            this.pictureBox4.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(88, 600);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(89, 24);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Créditos";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.label1.MouseEnter += new System.EventHandler(this.label1_MouseEnter);
+            this.label1.MouseLeave += new System.EventHandler(this.label1_MouseLeave);
+            // 
+            // lblRecomendados
+>>>>>>> baa08e54af6d07656c2d0156ecfe14c0825dc408
             // 
             this.pictureBox4.Image = global::AppMediaPlayer.Properties.Resources.star;
             this.pictureBox4.Location = new System.Drawing.Point(49, 596);
@@ -188,7 +228,11 @@
             // 
             // pnlMain
             // 
+<<<<<<< HEAD
             this.pnlMain.BackColor = System.Drawing.Color.Transparent;
+=======
+            this.pnlMain.BackColor = System.Drawing.Color.Green;
+>>>>>>> baa08e54af6d07656c2d0156ecfe14c0825dc408
             this.pnlMain.Location = new System.Drawing.Point(226, 99);
             this.pnlMain.MinimumSize = new System.Drawing.Size(261, 65);
             this.pnlMain.Name = "pnlMain";
@@ -365,6 +409,21 @@
             this.pnlControles.Size = new System.Drawing.Size(1269, 124);
             this.pnlControles.TabIndex = 1;
             // 
+<<<<<<< HEAD
+=======
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pictureBox3.Image = global::AppMediaPlayer.Properties.Resources.ph;
+            this.pictureBox3.Location = new System.Drawing.Point(1076, 28);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(51, 55);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 12;
+            this.pictureBox3.TabStop = false;
+            // 
+>>>>>>> baa08e54af6d07656c2d0156ecfe14c0825dc408
             // parrotSlider1
             // 
             this.parrotSlider1.BarThickness = 10;
@@ -390,6 +449,7 @@
             this.parrotSlider1.Text = "parrotSlider1";
             this.parrotSlider1.UnfilledColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(169)))), ((int)(((byte)(219)))));
             // 
+<<<<<<< HEAD
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
@@ -402,6 +462,8 @@
             this.pictureBox3.TabIndex = 12;
             this.pictureBox3.TabStop = false;
             // 
+=======
+>>>>>>> baa08e54af6d07656c2d0156ecfe14c0825dc408
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);

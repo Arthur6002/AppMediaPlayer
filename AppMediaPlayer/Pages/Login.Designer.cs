@@ -28,7 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
+=======
+>>>>>>> baa08e54af6d07656c2d0156ecfe14c0825dc408
             this.btnLogin = new ReaLTaiizor.Controls.CyberButton();
             this.txtSenha = new ReaLTaiizor.Controls.CyberTextBox();
             this.txtUsuario = new ReaLTaiizor.Controls.CyberTextBox();

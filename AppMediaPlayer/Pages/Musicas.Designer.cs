@@ -246,6 +246,41 @@
             this.hopePictureBox1.TabStop = false;
             this.hopePictureBox1.TextRenderingType = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             this.hopePictureBox1.Click += new System.EventHandler(this.hopePictureBox1_Click);
+<<<<<<< HEAD
+=======
+            // 
+            // cyberGroupBox2
+            // 
+            this.cyberGroupBox2.Alpha = 20;
+            this.cyberGroupBox2.BackColor = System.Drawing.Color.Transparent;
+            this.cyberGroupBox2.Background = true;
+            this.cyberGroupBox2.Background_WidthPen = 3F;
+            this.cyberGroupBox2.BackgroundPen = true;
+            this.cyberGroupBox2.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.cyberGroupBox2.ColorBackground_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.cyberGroupBox2.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
+            this.cyberGroupBox2.ColorBackground_Pen = System.Drawing.Color.DodgerBlue;
+            this.cyberGroupBox2.ColorLighting = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(200)))), ((int)(((byte)(238)))));
+            this.cyberGroupBox2.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.cyberGroupBox2.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
+            this.cyberGroupBox2.CyberGroupBoxStyle = ReaLTaiizor.Enum.Cyber.StateStyle.Custom;
+            this.cyberGroupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
+            this.cyberGroupBox2.Lighting = false;
+            this.cyberGroupBox2.LinearGradient_Background = false;
+            this.cyberGroupBox2.LinearGradientPen = false;
+            this.cyberGroupBox2.Location = new System.Drawing.Point(86, 18);
+            this.cyberGroupBox2.Name = "cyberGroupBox2";
+            this.cyberGroupBox2.PenWidth = 15;
+            this.cyberGroupBox2.RGB = false;
+            this.cyberGroupBox2.Rounding = true;
+            this.cyberGroupBox2.RoundingInt = 60;
+            this.cyberGroupBox2.Size = new System.Drawing.Size(250, 250);
+            this.cyberGroupBox2.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
+            this.cyberGroupBox2.TabIndex = 32;
+            this.cyberGroupBox2.Tag = "Cyber";
+            this.cyberGroupBox2.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.cyberGroupBox2.Timer_RGB = 300;
+>>>>>>> baa08e54af6d07656c2d0156ecfe14c0825dc408
             // 
             // nightLabel5
             // 

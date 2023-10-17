@@ -196,11 +196,14 @@ namespace AppMediaPlayer
             label1.Font = new Font(label1.Font.Name, label1.Font.Size, FontStyle.Regular);
 
         }
+<<<<<<< HEAD
 
         private void lblInicio_Click(object sender, EventArgs e)
         {
             Form inicio = new Pages.Inicio();
             Change_Form(pnlMain, inicio);
         }
+=======
+>>>>>>> baa08e54af6d07656c2d0156ecfe14c0825dc408
     }
 }
