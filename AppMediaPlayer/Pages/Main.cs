@@ -25,6 +25,8 @@ namespace AppMediaPlayer
         public Main()
         {
             InitializeComponent();
+            Form inicio = new Inicio();
+            Change_Form(pnlMain, inicio);
 
             ManageUser uc = new ManageUser();
             List<Usuario> uc2 = uc.GetLogged();
@@ -33,7 +35,6 @@ namespace AppMediaPlayer
                 lbl_UserName.Text = v.nome;
             }
         }
-
         void Change_Form(Panel painel, Form form)
         {
             painel.Controls.Clear();
@@ -43,8 +44,6 @@ namespace AppMediaPlayer
             form.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             form.Show();
         }
-
-
         //Botão musicas
         private void lblMusicas_Click(object sender, EventArgs e)
         {
@@ -74,8 +73,6 @@ namespace AppMediaPlayer
         {
             lblPlayList.Font = new Font(lblMusicas.Font.Name, lblMusicas.Font.Size, FontStyle.Regular);
         }
-
-
         private void lblRecomendados_MouseEnter(object sender, EventArgs e)
         {
             lblRecomendados.Font = new Font(lblMusicas.Font.Name, lblMusicas.Font.Size, FontStyle.Underline);
@@ -93,11 +90,9 @@ namespace AppMediaPlayer
 
             if (!Song.Playing)
             {
-                
                 Music_Con.Resume();
                 btnPlay.Image = Properties.Resources.Pause;
                 Song.Playing = true;
-
             }
             else
             {
@@ -105,8 +100,6 @@ namespace AppMediaPlayer
                 btnPlay.Image = Properties.Resources.Play;
                 Song.Playing = false;
             }
-
-
         }
 
 
@@ -120,7 +113,6 @@ namespace AppMediaPlayer
             DialogResult result = MessageBox.Show("Tem certeza de que deseja sair da sua conta e voltar à tela inicial?", "Retorno à Tela Inicial", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
             if (result == DialogResult.Yes)
                 FormController.ShowForm(this, new Contas());
-
             return;
         }
 
@@ -153,8 +145,6 @@ namespace AppMediaPlayer
                 lbl_song_author.Visible = false;
                 lbl_song_album.Visible = false;
                 pbox_cover.Visible = false;
-
-                
 
                 Play = false;
 
