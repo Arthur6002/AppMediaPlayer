@@ -202,7 +202,7 @@
             // 
             this.foxLabel2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.foxLabel2.ForeColor = System.Drawing.Color.White;
-            this.foxLabel2.Location = new System.Drawing.Point(301, 159);
+            this.foxLabel2.Location = new System.Drawing.Point(301, 157);
             this.foxLabel2.Name = "foxLabel2";
             this.foxLabel2.Size = new System.Drawing.Size(65, 19);
             this.foxLabel2.TabIndex = 23;
@@ -267,6 +267,7 @@
             this.btnFechar.Size = new System.Drawing.Size(34, 33);
             this.btnFechar.TabIndex = 29;
             this.btnFechar.Text = "X";
+            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click_1);
             // 
             // crownDockPanel1
             // 

@@ -99,6 +99,7 @@
             this.pcbAdicionar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pcbAdicionar.TabIndex = 0;
             this.pcbAdicionar.TabStop = false;
+            this.pcbAdicionar.Click += new System.EventHandler(this.pcbAdicionar_Click_1);
             // 
             // label2
             // 

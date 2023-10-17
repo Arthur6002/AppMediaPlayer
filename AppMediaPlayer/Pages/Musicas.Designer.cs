@@ -163,7 +163,7 @@
             // hopePictureBox4
             // 
             this.hopePictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
-            this.hopePictureBox4.Image = global::AppMediaPlayer.Properties.Resources.gorillaz_placeholder;
+            this.hopePictureBox4.Image = global::AppMediaPlayer.Properties.Resources.ph;
             this.hopePictureBox4.Location = new System.Drawing.Point(741, 45);
             this.hopePictureBox4.Name = "hopePictureBox4";
             this.hopePictureBox4.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
@@ -334,7 +334,7 @@
             // hopePictureBox3
             // 
             this.hopePictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
-            this.hopePictureBox3.Image = global::AppMediaPlayer.Properties.Resources.gorillaz_placeholder;
+            this.hopePictureBox3.Image = global::AppMediaPlayer.Properties.Resources.ph;
             this.hopePictureBox3.Location = new System.Drawing.Point(118, 301);
             this.hopePictureBox3.Name = "hopePictureBox3";
             this.hopePictureBox3.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
@@ -348,7 +348,7 @@
             // hopePictureBox5
             // 
             this.hopePictureBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
-            this.hopePictureBox5.Image = global::AppMediaPlayer.Properties.Resources.gorillaz_placeholder;
+            this.hopePictureBox5.Image = global::AppMediaPlayer.Properties.Resources.ph;
             this.hopePictureBox5.Location = new System.Drawing.Point(741, 301);
             this.hopePictureBox5.Name = "hopePictureBox5";
             this.hopePictureBox5.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
@@ -452,7 +452,7 @@
             // hopePictureBox6
             // 
             this.hopePictureBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
-            this.hopePictureBox6.Image = global::AppMediaPlayer.Properties.Resources.gorillaz_placeholder;
+            this.hopePictureBox6.Image = global::AppMediaPlayer.Properties.Resources.ph;
             this.hopePictureBox6.Location = new System.Drawing.Point(429, 301);
             this.hopePictureBox6.Name = "hopePictureBox6";
             this.hopePictureBox6.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;

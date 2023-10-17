@@ -54,5 +54,10 @@ namespace AppMediaPlayer.Pages
         {
             FormController.ShowForm(this, new Registro());
         }
+
+        private void btnFechar_Click_1(object sender, EventArgs e)
+        {
+            FormController.ShowForm(this, new Contas());
+        }
     }
 }
