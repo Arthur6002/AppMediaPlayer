@@ -28,313 +28,470 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Playlists));
+            this.nightLabel5 = new ReaLTaiizor.Controls.NightLabel();
+            this.nightLabel6 = new ReaLTaiizor.Controls.NightLabel();
+            this.nightLabel9 = new ReaLTaiizor.Controls.NightLabel();
+            this.nightLabel10 = new ReaLTaiizor.Controls.NightLabel();
+            this.hopePictureBox3 = new ReaLTaiizor.Controls.HopePictureBox();
+            this.hopePictureBox5 = new ReaLTaiizor.Controls.HopePictureBox();
+            this.cyberGroupBox3 = new ReaLTaiizor.Controls.CyberGroupBox();
+            this.cyberGroupBox5 = new ReaLTaiizor.Controls.CyberGroupBox();
+            this.nightLabel11 = new ReaLTaiizor.Controls.NightLabel();
+            this.nightLabel12 = new ReaLTaiizor.Controls.NightLabel();
+            this.hopePictureBox6 = new ReaLTaiizor.Controls.HopePictureBox();
+            this.cyberGroupBox6 = new ReaLTaiizor.Controls.CyberGroupBox();
+            this.nightLabel1 = new ReaLTaiizor.Controls.NightLabel();
+            this.nightLabel7 = new ReaLTaiizor.Controls.NightLabel();
+            this.nightLabel2 = new ReaLTaiizor.Controls.NightLabel();
+            this.nightLabel8 = new ReaLTaiizor.Controls.NightLabel();
+            this.hopePictureBox1 = new ReaLTaiizor.Controls.HopePictureBox();
+            this.hopePictureBox4 = new ReaLTaiizor.Controls.HopePictureBox();
+            this.cyberGroupBox2 = new ReaLTaiizor.Controls.CyberGroupBox();
+            this.cyberGroupBox4 = new ReaLTaiizor.Controls.CyberGroupBox();
+            this.nightLabel3 = new ReaLTaiizor.Controls.NightLabel();
+            this.nightLabel4 = new ReaLTaiizor.Controls.NightLabel();
+            this.hopePictureBox2 = new ReaLTaiizor.Controls.HopePictureBox();
+            this.cyberGroupBox1 = new ReaLTaiizor.Controls.CyberGroupBox();
+            ((System.ComponentModel.ISupportInitialize)(this.hopePictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hopePictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hopePictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hopePictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hopePictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hopePictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // nightLabel5
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(190, 27);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 25);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "label1";
+            this.nightLabel5.AutoSize = true;
+            this.nightLabel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.nightLabel5.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.nightLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(118)))), ((int)(((byte)(127)))));
+            this.nightLabel5.Location = new System.Drawing.Point(190, 500);
+            this.nightLabel5.Name = "nightLabel5";
+            this.nightLabel5.Size = new System.Drawing.Size(46, 15);
+            this.nightLabel5.TabIndex = 71;
+            this.nightLabel5.Text = "Gorillaz";
+            this.nightLabel5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label2
+            // nightLabel6
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(192, 52);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 16);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "label2";
+            this.nightLabel6.AutoSize = true;
+            this.nightLabel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.nightLabel6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.nightLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(118)))), ((int)(((byte)(127)))));
+            this.nightLabel6.Location = new System.Drawing.Point(813, 500);
+            this.nightLabel6.Name = "nightLabel6";
+            this.nightLabel6.Size = new System.Drawing.Size(46, 15);
+            this.nightLabel6.TabIndex = 75;
+            this.nightLabel6.Text = "Gorillaz";
+            this.nightLabel6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label3
+            // nightLabel9
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(192, 108);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(44, 16);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "label3";
+            this.nightLabel9.AutoSize = true;
+            this.nightLabel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.nightLabel9.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.nightLabel9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(118)))), ((int)(((byte)(127)))));
+            this.nightLabel9.Location = new System.Drawing.Point(176, 485);
+            this.nightLabel9.Name = "nightLabel9";
+            this.nightLabel9.Size = new System.Drawing.Size(74, 15);
+            this.nightLabel9.TabIndex = 70;
+            this.nightLabel9.Text = "Demon Days";
+            this.nightLabel9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label4
+            // nightLabel10
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(190, 83);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(70, 25);
-            this.label4.TabIndex = 11;
-            this.label4.Text = "label4";
+            this.nightLabel10.AutoSize = true;
+            this.nightLabel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.nightLabel10.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.nightLabel10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(118)))), ((int)(((byte)(127)))));
+            this.nightLabel10.Location = new System.Drawing.Point(799, 485);
+            this.nightLabel10.Name = "nightLabel10";
+            this.nightLabel10.Size = new System.Drawing.Size(74, 15);
+            this.nightLabel10.TabIndex = 74;
+            this.nightLabel10.Text = "Demon Days";
+            this.nightLabel10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label5
+            // hopePictureBox3
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(192, 164);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(44, 16);
-            this.label5.TabIndex = 14;
-            this.label5.Text = "label5";
+            this.hopePictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.hopePictureBox3.Image = global::AppMediaPlayer.Properties.Resources.ph;
+            this.hopePictureBox3.Location = new System.Drawing.Point(118, 301);
+            this.hopePictureBox3.Name = "hopePictureBox3";
+            this.hopePictureBox3.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
+            this.hopePictureBox3.Size = new System.Drawing.Size(191, 180);
+            this.hopePictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.hopePictureBox3.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
+            this.hopePictureBox3.TabIndex = 69;
+            this.hopePictureBox3.TabStop = false;
+            this.hopePictureBox3.TextRenderingType = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             // 
-            // label6
+            // hopePictureBox5
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(190, 139);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(70, 25);
-            this.label6.TabIndex = 13;
-            this.label6.Text = "label6";
+            this.hopePictureBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.hopePictureBox5.Image = global::AppMediaPlayer.Properties.Resources.ph;
+            this.hopePictureBox5.Location = new System.Drawing.Point(741, 301);
+            this.hopePictureBox5.Name = "hopePictureBox5";
+            this.hopePictureBox5.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
+            this.hopePictureBox5.Size = new System.Drawing.Size(191, 180);
+            this.hopePictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.hopePictureBox5.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
+            this.hopePictureBox5.TabIndex = 73;
+            this.hopePictureBox5.TabStop = false;
+            this.hopePictureBox5.TextRenderingType = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             // 
-            // label7
+            // cyberGroupBox3
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(192, 220);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(44, 16);
-            this.label7.TabIndex = 16;
-            this.label7.Text = "label7";
+            this.cyberGroupBox3.Alpha = 20;
+            this.cyberGroupBox3.BackColor = System.Drawing.Color.Transparent;
+            this.cyberGroupBox3.Background = true;
+            this.cyberGroupBox3.Background_WidthPen = 3F;
+            this.cyberGroupBox3.BackgroundPen = true;
+            this.cyberGroupBox3.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.cyberGroupBox3.ColorBackground_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.cyberGroupBox3.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
+            this.cyberGroupBox3.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(76)))), ((int)(((byte)(232)))));
+            this.cyberGroupBox3.ColorLighting = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(200)))), ((int)(((byte)(238)))));
+            this.cyberGroupBox3.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.cyberGroupBox3.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
+            this.cyberGroupBox3.CyberGroupBoxStyle = ReaLTaiizor.Enum.Cyber.StateStyle.Custom;
+            this.cyberGroupBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
+            this.cyberGroupBox3.Lighting = false;
+            this.cyberGroupBox3.LinearGradient_Background = false;
+            this.cyberGroupBox3.LinearGradientPen = false;
+            this.cyberGroupBox3.Location = new System.Drawing.Point(86, 274);
+            this.cyberGroupBox3.Name = "cyberGroupBox3";
+            this.cyberGroupBox3.PenWidth = 15;
+            this.cyberGroupBox3.RGB = false;
+            this.cyberGroupBox3.Rounding = true;
+            this.cyberGroupBox3.RoundingInt = 60;
+            this.cyberGroupBox3.Size = new System.Drawing.Size(250, 250);
+            this.cyberGroupBox3.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
+            this.cyberGroupBox3.TabIndex = 72;
+            this.cyberGroupBox3.Tag = "Cyber";
+            this.cyberGroupBox3.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.cyberGroupBox3.Timer_RGB = 300;
             // 
-            // label8
+            // cyberGroupBox5
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(190, 195);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(70, 25);
-            this.label8.TabIndex = 15;
-            this.label8.Text = "label8";
+            this.cyberGroupBox5.Alpha = 20;
+            this.cyberGroupBox5.BackColor = System.Drawing.Color.Transparent;
+            this.cyberGroupBox5.Background = true;
+            this.cyberGroupBox5.Background_WidthPen = 3F;
+            this.cyberGroupBox5.BackgroundPen = true;
+            this.cyberGroupBox5.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.cyberGroupBox5.ColorBackground_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.cyberGroupBox5.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
+            this.cyberGroupBox5.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(76)))), ((int)(((byte)(232)))));
+            this.cyberGroupBox5.ColorLighting = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(200)))), ((int)(((byte)(238)))));
+            this.cyberGroupBox5.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.cyberGroupBox5.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
+            this.cyberGroupBox5.CyberGroupBoxStyle = ReaLTaiizor.Enum.Cyber.StateStyle.Custom;
+            this.cyberGroupBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
+            this.cyberGroupBox5.Lighting = false;
+            this.cyberGroupBox5.LinearGradient_Background = false;
+            this.cyberGroupBox5.LinearGradientPen = false;
+            this.cyberGroupBox5.Location = new System.Drawing.Point(709, 274);
+            this.cyberGroupBox5.Name = "cyberGroupBox5";
+            this.cyberGroupBox5.PenWidth = 15;
+            this.cyberGroupBox5.RGB = false;
+            this.cyberGroupBox5.Rounding = true;
+            this.cyberGroupBox5.RoundingInt = 60;
+            this.cyberGroupBox5.Size = new System.Drawing.Size(250, 250);
+            this.cyberGroupBox5.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
+            this.cyberGroupBox5.TabIndex = 76;
+            this.cyberGroupBox5.Tag = "Cyber";
+            this.cyberGroupBox5.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.cyberGroupBox5.Timer_RGB = 300;
             // 
-            // label9
+            // nightLabel11
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(192, 276);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(44, 16);
-            this.label9.TabIndex = 18;
-            this.label9.Text = "label9";
+            this.nightLabel11.AutoSize = true;
+            this.nightLabel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.nightLabel11.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.nightLabel11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(118)))), ((int)(((byte)(127)))));
+            this.nightLabel11.Location = new System.Drawing.Point(501, 500);
+            this.nightLabel11.Name = "nightLabel11";
+            this.nightLabel11.Size = new System.Drawing.Size(46, 15);
+            this.nightLabel11.TabIndex = 67;
+            this.nightLabel11.Text = "Gorillaz";
+            this.nightLabel11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label10
+            // nightLabel12
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(190, 251);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(82, 25);
-            this.label10.TabIndex = 17;
-            this.label10.Text = "label10";
+            this.nightLabel12.AutoSize = true;
+            this.nightLabel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.nightLabel12.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.nightLabel12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(118)))), ((int)(((byte)(127)))));
+            this.nightLabel12.Location = new System.Drawing.Point(487, 485);
+            this.nightLabel12.Name = "nightLabel12";
+            this.nightLabel12.Size = new System.Drawing.Size(74, 15);
+            this.nightLabel12.TabIndex = 66;
+            this.nightLabel12.Text = "Demon Days";
+            this.nightLabel12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label11
+            // hopePictureBox6
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(192, 332);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(51, 16);
-            this.label11.TabIndex = 20;
-            this.label11.Text = "label11";
+            this.hopePictureBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.hopePictureBox6.Image = global::AppMediaPlayer.Properties.Resources.ph;
+            this.hopePictureBox6.Location = new System.Drawing.Point(429, 301);
+            this.hopePictureBox6.Name = "hopePictureBox6";
+            this.hopePictureBox6.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
+            this.hopePictureBox6.Size = new System.Drawing.Size(191, 180);
+            this.hopePictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.hopePictureBox6.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
+            this.hopePictureBox6.TabIndex = 65;
+            this.hopePictureBox6.TabStop = false;
+            this.hopePictureBox6.TextRenderingType = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             // 
-            // label12
+            // cyberGroupBox6
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(190, 307);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(82, 25);
-            this.label12.TabIndex = 19;
-            this.label12.Text = "label12";
+            this.cyberGroupBox6.Alpha = 20;
+            this.cyberGroupBox6.BackColor = System.Drawing.Color.Transparent;
+            this.cyberGroupBox6.Background = true;
+            this.cyberGroupBox6.Background_WidthPen = 3F;
+            this.cyberGroupBox6.BackgroundPen = true;
+            this.cyberGroupBox6.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.cyberGroupBox6.ColorBackground_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.cyberGroupBox6.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
+            this.cyberGroupBox6.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(76)))), ((int)(((byte)(232)))));
+            this.cyberGroupBox6.ColorLighting = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(200)))), ((int)(((byte)(238)))));
+            this.cyberGroupBox6.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.cyberGroupBox6.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
+            this.cyberGroupBox6.CyberGroupBoxStyle = ReaLTaiizor.Enum.Cyber.StateStyle.Custom;
+            this.cyberGroupBox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
+            this.cyberGroupBox6.Lighting = false;
+            this.cyberGroupBox6.LinearGradient_Background = false;
+            this.cyberGroupBox6.LinearGradientPen = false;
+            this.cyberGroupBox6.Location = new System.Drawing.Point(397, 274);
+            this.cyberGroupBox6.Name = "cyberGroupBox6";
+            this.cyberGroupBox6.PenWidth = 15;
+            this.cyberGroupBox6.RGB = false;
+            this.cyberGroupBox6.Rounding = true;
+            this.cyberGroupBox6.RoundingInt = 60;
+            this.cyberGroupBox6.Size = new System.Drawing.Size(250, 250);
+            this.cyberGroupBox6.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
+            this.cyberGroupBox6.TabIndex = 68;
+            this.cyberGroupBox6.Tag = "Cyber";
+            this.cyberGroupBox6.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.cyberGroupBox6.Timer_RGB = 300;
             // 
-            // label13
+            // nightLabel1
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(192, 388);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(51, 16);
-            this.label13.TabIndex = 22;
-            this.label13.Text = "label13";
+            this.nightLabel1.AutoSize = true;
+            this.nightLabel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.nightLabel1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.nightLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(118)))), ((int)(((byte)(127)))));
+            this.nightLabel1.Location = new System.Drawing.Point(190, 244);
+            this.nightLabel1.Name = "nightLabel1";
+            this.nightLabel1.Size = new System.Drawing.Size(46, 15);
+            this.nightLabel1.TabIndex = 59;
+            this.nightLabel1.Text = "Gorillaz";
+            this.nightLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label14
+            // nightLabel7
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(190, 363);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(82, 25);
-            this.label14.TabIndex = 21;
-            this.label14.Text = "label14";
+            this.nightLabel7.AutoSize = true;
+            this.nightLabel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.nightLabel7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.nightLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(118)))), ((int)(((byte)(127)))));
+            this.nightLabel7.Location = new System.Drawing.Point(813, 244);
+            this.nightLabel7.Name = "nightLabel7";
+            this.nightLabel7.Size = new System.Drawing.Size(46, 15);
+            this.nightLabel7.TabIndex = 63;
+            this.nightLabel7.Text = "Gorillaz";
+            this.nightLabel7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label15
+            // nightLabel2
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(192, 444);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(51, 16);
-            this.label15.TabIndex = 24;
-            this.label15.Text = "label15";
+            this.nightLabel2.AutoSize = true;
+            this.nightLabel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.nightLabel2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.nightLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(118)))), ((int)(((byte)(127)))));
+            this.nightLabel2.Location = new System.Drawing.Point(176, 229);
+            this.nightLabel2.Name = "nightLabel2";
+            this.nightLabel2.Size = new System.Drawing.Size(74, 15);
+            this.nightLabel2.TabIndex = 58;
+            this.nightLabel2.Text = "Demon Days";
+            this.nightLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label16
+            // nightLabel8
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.White;
-            this.label16.Location = new System.Drawing.Point(190, 419);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(82, 25);
-            this.label16.TabIndex = 23;
-            this.label16.Text = "label16";
+            this.nightLabel8.AutoSize = true;
+            this.nightLabel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.nightLabel8.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.nightLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(118)))), ((int)(((byte)(127)))));
+            this.nightLabel8.Location = new System.Drawing.Point(799, 229);
+            this.nightLabel8.Name = "nightLabel8";
+            this.nightLabel8.Size = new System.Drawing.Size(74, 15);
+            this.nightLabel8.TabIndex = 62;
+            this.nightLabel8.Text = "Demon Days";
+            this.nightLabel8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label18
+            // hopePictureBox1
             // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.Color.White;
-            this.label18.Location = new System.Drawing.Point(190, 483);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(102, 25);
-            this.label18.TabIndex = 25;
-            this.label18.Text = "Adicionar";
+            this.hopePictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.hopePictureBox1.Image = global::AppMediaPlayer.Properties.Resources.gorillaz_placeholder;
+            this.hopePictureBox1.Location = new System.Drawing.Point(118, 45);
+            this.hopePictureBox1.Name = "hopePictureBox1";
+            this.hopePictureBox1.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
+            this.hopePictureBox1.Size = new System.Drawing.Size(191, 180);
+            this.hopePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.hopePictureBox1.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
+            this.hopePictureBox1.TabIndex = 57;
+            this.hopePictureBox1.TabStop = false;
+            this.hopePictureBox1.TextRenderingType = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             // 
-            // label17
+            // hopePictureBox4
             // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(145, 478);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(32, 33);
-            this.label17.TabIndex = 26;
-            this.label17.Text = "+";
+            this.hopePictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.hopePictureBox4.Image = global::AppMediaPlayer.Properties.Resources.ph;
+            this.hopePictureBox4.Location = new System.Drawing.Point(741, 45);
+            this.hopePictureBox4.Name = "hopePictureBox4";
+            this.hopePictureBox4.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
+            this.hopePictureBox4.Size = new System.Drawing.Size(191, 180);
+            this.hopePictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.hopePictureBox4.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
+            this.hopePictureBox4.TabIndex = 61;
+            this.hopePictureBox4.TabStop = false;
+            this.hopePictureBox4.TextRenderingType = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             // 
-            // pictureBox9
+            // cyberGroupBox2
             // 
-            this.pictureBox9.Location = new System.Drawing.Point(134, 470);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox9.TabIndex = 8;
-            this.pictureBox9.TabStop = false;
-            this.pictureBox9.Tag = "";
+            this.cyberGroupBox2.Alpha = 20;
+            this.cyberGroupBox2.BackColor = System.Drawing.Color.Transparent;
+            this.cyberGroupBox2.Background = true;
+            this.cyberGroupBox2.Background_WidthPen = 3F;
+            this.cyberGroupBox2.BackgroundPen = true;
+            this.cyberGroupBox2.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.cyberGroupBox2.ColorBackground_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.cyberGroupBox2.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
+            this.cyberGroupBox2.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(76)))), ((int)(((byte)(232)))));
+            this.cyberGroupBox2.ColorLighting = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(200)))), ((int)(((byte)(238)))));
+            this.cyberGroupBox2.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.cyberGroupBox2.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
+            this.cyberGroupBox2.CyberGroupBoxStyle = ReaLTaiizor.Enum.Cyber.StateStyle.Custom;
+            this.cyberGroupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
+            this.cyberGroupBox2.Lighting = false;
+            this.cyberGroupBox2.LinearGradient_Background = false;
+            this.cyberGroupBox2.LinearGradientPen = false;
+            this.cyberGroupBox2.Location = new System.Drawing.Point(86, 18);
+            this.cyberGroupBox2.Name = "cyberGroupBox2";
+            this.cyberGroupBox2.PenWidth = 15;
+            this.cyberGroupBox2.RGB = false;
+            this.cyberGroupBox2.Rounding = true;
+            this.cyberGroupBox2.RoundingInt = 60;
+            this.cyberGroupBox2.Size = new System.Drawing.Size(250, 250);
+            this.cyberGroupBox2.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
+            this.cyberGroupBox2.TabIndex = 60;
+            this.cyberGroupBox2.Tag = "Cyber";
+            this.cyberGroupBox2.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.cyberGroupBox2.Timer_RGB = 300;
             // 
-            // pictureBox8
+            // cyberGroupBox4
             // 
-            this.pictureBox8.Location = new System.Drawing.Point(134, 414);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox8.TabIndex = 7;
-            this.pictureBox8.TabStop = false;
+            this.cyberGroupBox4.Alpha = 20;
+            this.cyberGroupBox4.BackColor = System.Drawing.Color.Transparent;
+            this.cyberGroupBox4.Background = true;
+            this.cyberGroupBox4.Background_WidthPen = 3F;
+            this.cyberGroupBox4.BackgroundPen = true;
+            this.cyberGroupBox4.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.cyberGroupBox4.ColorBackground_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.cyberGroupBox4.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
+            this.cyberGroupBox4.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(76)))), ((int)(((byte)(232)))));
+            this.cyberGroupBox4.ColorLighting = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(200)))), ((int)(((byte)(238)))));
+            this.cyberGroupBox4.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.cyberGroupBox4.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
+            this.cyberGroupBox4.CyberGroupBoxStyle = ReaLTaiizor.Enum.Cyber.StateStyle.Custom;
+            this.cyberGroupBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
+            this.cyberGroupBox4.Lighting = false;
+            this.cyberGroupBox4.LinearGradient_Background = false;
+            this.cyberGroupBox4.LinearGradientPen = false;
+            this.cyberGroupBox4.Location = new System.Drawing.Point(709, 18);
+            this.cyberGroupBox4.Name = "cyberGroupBox4";
+            this.cyberGroupBox4.PenWidth = 15;
+            this.cyberGroupBox4.RGB = false;
+            this.cyberGroupBox4.Rounding = true;
+            this.cyberGroupBox4.RoundingInt = 60;
+            this.cyberGroupBox4.Size = new System.Drawing.Size(250, 250);
+            this.cyberGroupBox4.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
+            this.cyberGroupBox4.TabIndex = 64;
+            this.cyberGroupBox4.Tag = "Cyber";
+            this.cyberGroupBox4.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.cyberGroupBox4.Timer_RGB = 300;
             // 
-            // pictureBox7
+            // nightLabel3
             // 
-            this.pictureBox7.Location = new System.Drawing.Point(134, 358);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox7.TabIndex = 6;
-            this.pictureBox7.TabStop = false;
+            this.nightLabel3.AutoSize = true;
+            this.nightLabel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.nightLabel3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.nightLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(118)))), ((int)(((byte)(127)))));
+            this.nightLabel3.Location = new System.Drawing.Point(495, 244);
+            this.nightLabel3.Name = "nightLabel3";
+            this.nightLabel3.Size = new System.Drawing.Size(60, 15);
+            this.nightLabel3.TabIndex = 55;
+            this.nightLabel3.Text = "Yung Lixo";
+            this.nightLabel3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox6
+            // nightLabel4
             // 
-            this.pictureBox6.Location = new System.Drawing.Point(134, 302);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox6.TabIndex = 5;
-            this.pictureBox6.TabStop = false;
+            this.nightLabel4.AutoSize = true;
+            this.nightLabel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.nightLabel4.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.nightLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(118)))), ((int)(((byte)(127)))));
+            this.nightLabel4.Location = new System.Drawing.Point(468, 229);
+            this.nightLabel4.Name = "nightLabel4";
+            this.nightLabel4.Size = new System.Drawing.Size(108, 15);
+            this.nightLabel4.TabIndex = 54;
+            this.nightLabel4.Text = "Diamantes e Peixes";
+            this.nightLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox5
+            // hopePictureBox2
             // 
-            this.pictureBox5.Location = new System.Drawing.Point(134, 246);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox5.TabIndex = 4;
-            this.pictureBox5.TabStop = false;
+            this.hopePictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.hopePictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("hopePictureBox2.Image")));
+            this.hopePictureBox2.Location = new System.Drawing.Point(429, 45);
+            this.hopePictureBox2.Name = "hopePictureBox2";
+            this.hopePictureBox2.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
+            this.hopePictureBox2.Size = new System.Drawing.Size(191, 180);
+            this.hopePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.hopePictureBox2.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
+            this.hopePictureBox2.TabIndex = 53;
+            this.hopePictureBox2.TabStop = false;
+            this.hopePictureBox2.TextRenderingType = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             // 
-            // pictureBox4
+            // cyberGroupBox1
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(134, 190);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Location = new System.Drawing.Point(134, 134);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Location = new System.Drawing.Point(134, 78);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(134, 22);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.cyberGroupBox1.Alpha = 20;
+            this.cyberGroupBox1.BackColor = System.Drawing.Color.Transparent;
+            this.cyberGroupBox1.Background = true;
+            this.cyberGroupBox1.Background_WidthPen = 3F;
+            this.cyberGroupBox1.BackgroundPen = true;
+            this.cyberGroupBox1.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.cyberGroupBox1.ColorBackground_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.cyberGroupBox1.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
+            this.cyberGroupBox1.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(76)))), ((int)(((byte)(232)))));
+            this.cyberGroupBox1.ColorLighting = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(200)))), ((int)(((byte)(238)))));
+            this.cyberGroupBox1.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.cyberGroupBox1.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
+            this.cyberGroupBox1.CyberGroupBoxStyle = ReaLTaiizor.Enum.Cyber.StateStyle.Custom;
+            this.cyberGroupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
+            this.cyberGroupBox1.Lighting = false;
+            this.cyberGroupBox1.LinearGradient_Background = false;
+            this.cyberGroupBox1.LinearGradientPen = false;
+            this.cyberGroupBox1.Location = new System.Drawing.Point(397, 18);
+            this.cyberGroupBox1.Name = "cyberGroupBox1";
+            this.cyberGroupBox1.PenWidth = 15;
+            this.cyberGroupBox1.RGB = false;
+            this.cyberGroupBox1.Rounding = true;
+            this.cyberGroupBox1.RoundingInt = 60;
+            this.cyberGroupBox1.Size = new System.Drawing.Size(250, 250);
+            this.cyberGroupBox1.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
+            this.cyberGroupBox1.TabIndex = 56;
+            this.cyberGroupBox1.Tag = "Cyber";
+            this.cyberGroupBox1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.cyberGroupBox1.Timer_RGB = 300;
             // 
             // Playlists
             // 
@@ -342,48 +499,42 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(65)))), ((int)(((byte)(70)))));
             this.ClientSize = new System.Drawing.Size(1045, 542);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.label18);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox9);
-            this.Controls.Add(this.pictureBox8);
-            this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.nightLabel5);
+            this.Controls.Add(this.nightLabel6);
+            this.Controls.Add(this.nightLabel9);
+            this.Controls.Add(this.nightLabel10);
+            this.Controls.Add(this.hopePictureBox3);
+            this.Controls.Add(this.hopePictureBox5);
+            this.Controls.Add(this.cyberGroupBox3);
+            this.Controls.Add(this.cyberGroupBox5);
+            this.Controls.Add(this.nightLabel11);
+            this.Controls.Add(this.nightLabel12);
+            this.Controls.Add(this.hopePictureBox6);
+            this.Controls.Add(this.cyberGroupBox6);
+            this.Controls.Add(this.nightLabel1);
+            this.Controls.Add(this.nightLabel7);
+            this.Controls.Add(this.nightLabel2);
+            this.Controls.Add(this.nightLabel8);
+            this.Controls.Add(this.hopePictureBox1);
+            this.Controls.Add(this.hopePictureBox4);
+            this.Controls.Add(this.cyberGroupBox2);
+            this.Controls.Add(this.cyberGroupBox4);
+            this.Controls.Add(this.nightLabel3);
+            this.Controls.Add(this.nightLabel4);
+            this.Controls.Add(this.hopePictureBox2);
+            this.Controls.Add(this.cyberGroupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Location = new System.Drawing.Point(227, 99);
             this.Name = "Playlists";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Playlists";
             this.Load += new System.EventHandler(this.Playlists_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hopePictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hopePictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hopePictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hopePictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hopePictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hopePictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -391,32 +542,29 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label17;
+        private ReaLTaiizor.Controls.NightLabel nightLabel5;
+        private ReaLTaiizor.Controls.NightLabel nightLabel6;
+        private ReaLTaiizor.Controls.NightLabel nightLabel9;
+        private ReaLTaiizor.Controls.NightLabel nightLabel10;
+        private ReaLTaiizor.Controls.HopePictureBox hopePictureBox3;
+        private ReaLTaiizor.Controls.HopePictureBox hopePictureBox5;
+        private ReaLTaiizor.Controls.CyberGroupBox cyberGroupBox3;
+        private ReaLTaiizor.Controls.CyberGroupBox cyberGroupBox5;
+        private ReaLTaiizor.Controls.NightLabel nightLabel11;
+        private ReaLTaiizor.Controls.NightLabel nightLabel12;
+        private ReaLTaiizor.Controls.HopePictureBox hopePictureBox6;
+        private ReaLTaiizor.Controls.CyberGroupBox cyberGroupBox6;
+        private ReaLTaiizor.Controls.NightLabel nightLabel1;
+        private ReaLTaiizor.Controls.NightLabel nightLabel7;
+        private ReaLTaiizor.Controls.NightLabel nightLabel2;
+        private ReaLTaiizor.Controls.NightLabel nightLabel8;
+        private ReaLTaiizor.Controls.HopePictureBox hopePictureBox1;
+        private ReaLTaiizor.Controls.HopePictureBox hopePictureBox4;
+        private ReaLTaiizor.Controls.CyberGroupBox cyberGroupBox2;
+        private ReaLTaiizor.Controls.CyberGroupBox cyberGroupBox4;
+        private ReaLTaiizor.Controls.NightLabel nightLabel3;
+        private ReaLTaiizor.Controls.NightLabel nightLabel4;
+        private ReaLTaiizor.Controls.HopePictureBox hopePictureBox2;
+        private ReaLTaiizor.Controls.CyberGroupBox cyberGroupBox1;
     }
 }

@@ -12,7 +12,20 @@ namespace AppMediaPlayer.Controller
     {
         static int id = 0;
         static List<Usuario> usuarios = new List<Usuario>();
+        public static List<Usuario> userLogged = new List<Usuario>();
 
+
+        public void setUser(String user)
+        {
+            Usuario logged = new Usuario();
+            logged.nome = user;
+            userLogged.Add(logged);
+        }
+
+        public List<Usuario> GetLogged()
+        {
+            return userLogged;
+        }
 
         public List<Usuario> GetUsuarios()
         {

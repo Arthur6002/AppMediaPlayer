@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Musicas));
             this.nightLabel3 = new ReaLTaiizor.Controls.NightLabel();
             this.nightLabel4 = new ReaLTaiizor.Controls.NightLabel();
             this.hopePictureBox2 = new ReaLTaiizor.Controls.HopePictureBox();
@@ -39,7 +40,6 @@
             this.nightLabel1 = new ReaLTaiizor.Controls.NightLabel();
             this.nightLabel2 = new ReaLTaiizor.Controls.NightLabel();
             this.hopePictureBox1 = new ReaLTaiizor.Controls.HopePictureBox();
-            this.cyberGroupBox2 = new ReaLTaiizor.Controls.CyberGroupBox();
             this.nightLabel5 = new ReaLTaiizor.Controls.NightLabel();
             this.nightLabel6 = new ReaLTaiizor.Controls.NightLabel();
             this.nightLabel9 = new ReaLTaiizor.Controls.NightLabel();
@@ -52,6 +52,7 @@
             this.nightLabel12 = new ReaLTaiizor.Controls.NightLabel();
             this.hopePictureBox6 = new ReaLTaiizor.Controls.HopePictureBox();
             this.cyberGroupBox6 = new ReaLTaiizor.Controls.CyberGroupBox();
+            this.cyberGroupBox2 = new ReaLTaiizor.Controls.CyberGroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.hopePictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.hopePictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.hopePictureBox1)).BeginInit();
@@ -66,11 +67,11 @@
             this.nightLabel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.nightLabel3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.nightLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(118)))), ((int)(((byte)(127)))));
-            this.nightLabel3.Location = new System.Drawing.Point(501, 244);
+            this.nightLabel3.Location = new System.Drawing.Point(495, 244);
             this.nightLabel3.Name = "nightLabel3";
-            this.nightLabel3.Size = new System.Drawing.Size(46, 15);
+            this.nightLabel3.Size = new System.Drawing.Size(60, 15);
             this.nightLabel3.TabIndex = 8;
-            this.nightLabel3.Text = "Gorillaz";
+            this.nightLabel3.Text = "Yung Lixo";
             this.nightLabel3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // nightLabel4
@@ -79,17 +80,17 @@
             this.nightLabel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.nightLabel4.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.nightLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(118)))), ((int)(((byte)(127)))));
-            this.nightLabel4.Location = new System.Drawing.Point(487, 229);
+            this.nightLabel4.Location = new System.Drawing.Point(468, 229);
             this.nightLabel4.Name = "nightLabel4";
-            this.nightLabel4.Size = new System.Drawing.Size(74, 15);
+            this.nightLabel4.Size = new System.Drawing.Size(108, 15);
             this.nightLabel4.TabIndex = 7;
-            this.nightLabel4.Text = "Demon Days";
+            this.nightLabel4.Text = "Diamantes e Peixes";
             this.nightLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // hopePictureBox2
             // 
             this.hopePictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
-            this.hopePictureBox2.Image = global::AppMediaPlayer.Properties.Resources._71M8yXz6o7L__UF1000_1000_QL80_;
+            this.hopePictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("hopePictureBox2.Image")));
             this.hopePictureBox2.Location = new System.Drawing.Point(429, 45);
             this.hopePictureBox2.Name = "hopePictureBox2";
             this.hopePictureBox2.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
@@ -99,6 +100,7 @@
             this.hopePictureBox2.TabIndex = 6;
             this.hopePictureBox2.TabStop = false;
             this.hopePictureBox2.TextRenderingType = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.hopePictureBox2.Click += new System.EventHandler(this.hopePictureBox2_Click);
             // 
             // cyberGroupBox1
             // 
@@ -110,7 +112,7 @@
             this.cyberGroupBox1.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.cyberGroupBox1.ColorBackground_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.cyberGroupBox1.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.cyberGroupBox1.ColorBackground_Pen = System.Drawing.Color.DodgerBlue;
+            this.cyberGroupBox1.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(76)))), ((int)(((byte)(232)))));
             this.cyberGroupBox1.ColorLighting = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(200)))), ((int)(((byte)(238)))));
             this.cyberGroupBox1.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.cyberGroupBox1.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -161,7 +163,7 @@
             // hopePictureBox4
             // 
             this.hopePictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
-            this.hopePictureBox4.Image = global::AppMediaPlayer.Properties.Resources._71M8yXz6o7L__UF1000_1000_QL80_;
+            this.hopePictureBox4.Image = global::AppMediaPlayer.Properties.Resources.ph;
             this.hopePictureBox4.Location = new System.Drawing.Point(741, 45);
             this.hopePictureBox4.Name = "hopePictureBox4";
             this.hopePictureBox4.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
@@ -182,7 +184,7 @@
             this.cyberGroupBox4.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.cyberGroupBox4.ColorBackground_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.cyberGroupBox4.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.cyberGroupBox4.ColorBackground_Pen = System.Drawing.Color.DodgerBlue;
+            this.cyberGroupBox4.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(76)))), ((int)(((byte)(232)))));
             this.cyberGroupBox4.ColorLighting = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(200)))), ((int)(((byte)(238)))));
             this.cyberGroupBox4.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.cyberGroupBox4.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -233,7 +235,7 @@
             // hopePictureBox1
             // 
             this.hopePictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
-            this.hopePictureBox1.Image = global::AppMediaPlayer.Properties.Resources._71M8yXz6o7L__UF1000_1000_QL80_;
+            this.hopePictureBox1.Image = global::AppMediaPlayer.Properties.Resources.gorillaz_placeholder;
             this.hopePictureBox1.Location = new System.Drawing.Point(118, 45);
             this.hopePictureBox1.Name = "hopePictureBox1";
             this.hopePictureBox1.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
@@ -243,38 +245,7 @@
             this.hopePictureBox1.TabIndex = 29;
             this.hopePictureBox1.TabStop = false;
             this.hopePictureBox1.TextRenderingType = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
-            // 
-            // cyberGroupBox2
-            // 
-            this.cyberGroupBox2.Alpha = 20;
-            this.cyberGroupBox2.BackColor = System.Drawing.Color.Transparent;
-            this.cyberGroupBox2.Background = true;
-            this.cyberGroupBox2.Background_WidthPen = 3F;
-            this.cyberGroupBox2.BackgroundPen = true;
-            this.cyberGroupBox2.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
-            this.cyberGroupBox2.ColorBackground_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
-            this.cyberGroupBox2.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.cyberGroupBox2.ColorBackground_Pen = System.Drawing.Color.DodgerBlue;
-            this.cyberGroupBox2.ColorLighting = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(200)))), ((int)(((byte)(238)))));
-            this.cyberGroupBox2.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
-            this.cyberGroupBox2.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.cyberGroupBox2.CyberGroupBoxStyle = ReaLTaiizor.Enum.Cyber.StateStyle.Custom;
-            this.cyberGroupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
-            this.cyberGroupBox2.Lighting = false;
-            this.cyberGroupBox2.LinearGradient_Background = false;
-            this.cyberGroupBox2.LinearGradientPen = false;
-            this.cyberGroupBox2.Location = new System.Drawing.Point(86, 18);
-            this.cyberGroupBox2.Name = "cyberGroupBox2";
-            this.cyberGroupBox2.PenWidth = 15;
-            this.cyberGroupBox2.RGB = false;
-            this.cyberGroupBox2.Rounding = true;
-            this.cyberGroupBox2.RoundingInt = 60;
-            this.cyberGroupBox2.Size = new System.Drawing.Size(250, 250);
-            this.cyberGroupBox2.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
-            this.cyberGroupBox2.TabIndex = 32;
-            this.cyberGroupBox2.Tag = "Cyber";
-            this.cyberGroupBox2.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
-            this.cyberGroupBox2.Timer_RGB = 300;
+            this.hopePictureBox1.Click += new System.EventHandler(this.hopePictureBox1_Click);
             // 
             // nightLabel5
             // 
@@ -331,7 +302,7 @@
             // hopePictureBox3
             // 
             this.hopePictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
-            this.hopePictureBox3.Image = global::AppMediaPlayer.Properties.Resources._71M8yXz6o7L__UF1000_1000_QL80_;
+            this.hopePictureBox3.Image = global::AppMediaPlayer.Properties.Resources.ph;
             this.hopePictureBox3.Location = new System.Drawing.Point(118, 301);
             this.hopePictureBox3.Name = "hopePictureBox3";
             this.hopePictureBox3.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
@@ -345,7 +316,7 @@
             // hopePictureBox5
             // 
             this.hopePictureBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
-            this.hopePictureBox5.Image = global::AppMediaPlayer.Properties.Resources._71M8yXz6o7L__UF1000_1000_QL80_;
+            this.hopePictureBox5.Image = global::AppMediaPlayer.Properties.Resources.ph;
             this.hopePictureBox5.Location = new System.Drawing.Point(741, 301);
             this.hopePictureBox5.Name = "hopePictureBox5";
             this.hopePictureBox5.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
@@ -366,7 +337,7 @@
             this.cyberGroupBox3.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.cyberGroupBox3.ColorBackground_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.cyberGroupBox3.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.cyberGroupBox3.ColorBackground_Pen = System.Drawing.Color.DodgerBlue;
+            this.cyberGroupBox3.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(76)))), ((int)(((byte)(232)))));
             this.cyberGroupBox3.ColorLighting = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(200)))), ((int)(((byte)(238)))));
             this.cyberGroupBox3.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.cyberGroupBox3.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -398,7 +369,7 @@
             this.cyberGroupBox5.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.cyberGroupBox5.ColorBackground_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.cyberGroupBox5.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.cyberGroupBox5.ColorBackground_Pen = System.Drawing.Color.DodgerBlue;
+            this.cyberGroupBox5.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(76)))), ((int)(((byte)(232)))));
             this.cyberGroupBox5.ColorLighting = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(200)))), ((int)(((byte)(238)))));
             this.cyberGroupBox5.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.cyberGroupBox5.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -449,7 +420,7 @@
             // hopePictureBox6
             // 
             this.hopePictureBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
-            this.hopePictureBox6.Image = global::AppMediaPlayer.Properties.Resources._71M8yXz6o7L__UF1000_1000_QL80_;
+            this.hopePictureBox6.Image = global::AppMediaPlayer.Properties.Resources.ph;
             this.hopePictureBox6.Location = new System.Drawing.Point(429, 301);
             this.hopePictureBox6.Name = "hopePictureBox6";
             this.hopePictureBox6.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
@@ -470,7 +441,7 @@
             this.cyberGroupBox6.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.cyberGroupBox6.ColorBackground_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.cyberGroupBox6.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.cyberGroupBox6.ColorBackground_Pen = System.Drawing.Color.DodgerBlue;
+            this.cyberGroupBox6.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(76)))), ((int)(((byte)(232)))));
             this.cyberGroupBox6.ColorLighting = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(200)))), ((int)(((byte)(238)))));
             this.cyberGroupBox6.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.cyberGroupBox6.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -491,6 +462,38 @@
             this.cyberGroupBox6.Tag = "Cyber";
             this.cyberGroupBox6.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             this.cyberGroupBox6.Timer_RGB = 300;
+            // 
+            // cyberGroupBox2
+            // 
+            this.cyberGroupBox2.Alpha = 20;
+            this.cyberGroupBox2.BackColor = System.Drawing.Color.Transparent;
+            this.cyberGroupBox2.Background = true;
+            this.cyberGroupBox2.Background_WidthPen = 3F;
+            this.cyberGroupBox2.BackgroundPen = true;
+            this.cyberGroupBox2.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.cyberGroupBox2.ColorBackground_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.cyberGroupBox2.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
+            this.cyberGroupBox2.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(76)))), ((int)(((byte)(232)))));
+            this.cyberGroupBox2.ColorLighting = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(200)))), ((int)(((byte)(238)))));
+            this.cyberGroupBox2.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.cyberGroupBox2.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
+            this.cyberGroupBox2.CyberGroupBoxStyle = ReaLTaiizor.Enum.Cyber.StateStyle.Custom;
+            this.cyberGroupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
+            this.cyberGroupBox2.Lighting = false;
+            this.cyberGroupBox2.LinearGradient_Background = false;
+            this.cyberGroupBox2.LinearGradientPen = false;
+            this.cyberGroupBox2.Location = new System.Drawing.Point(86, 18);
+            this.cyberGroupBox2.Name = "cyberGroupBox2";
+            this.cyberGroupBox2.PenWidth = 15;
+            this.cyberGroupBox2.RGB = false;
+            this.cyberGroupBox2.Rounding = true;
+            this.cyberGroupBox2.RoundingInt = 60;
+            this.cyberGroupBox2.Size = new System.Drawing.Size(250, 250);
+            this.cyberGroupBox2.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
+            this.cyberGroupBox2.TabIndex = 32;
+            this.cyberGroupBox2.Tag = "Cyber";
+            this.cyberGroupBox2.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.cyberGroupBox2.Timer_RGB = 300;
             // 
             // Musicas
             // 
@@ -548,7 +551,6 @@
         private ReaLTaiizor.Controls.NightLabel nightLabel1;
         private ReaLTaiizor.Controls.NightLabel nightLabel2;
         private ReaLTaiizor.Controls.HopePictureBox hopePictureBox1;
-        private ReaLTaiizor.Controls.CyberGroupBox cyberGroupBox2;
         private ReaLTaiizor.Controls.NightLabel nightLabel5;
         private ReaLTaiizor.Controls.NightLabel nightLabel6;
         private ReaLTaiizor.Controls.NightLabel nightLabel9;
@@ -561,5 +563,6 @@
         private ReaLTaiizor.Controls.NightLabel nightLabel12;
         private ReaLTaiizor.Controls.HopePictureBox hopePictureBox6;
         private ReaLTaiizor.Controls.CyberGroupBox cyberGroupBox6;
+        private ReaLTaiizor.Controls.CyberGroupBox cyberGroupBox2;
     }
 }

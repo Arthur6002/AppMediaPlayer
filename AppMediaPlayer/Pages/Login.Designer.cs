@@ -28,33 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnFechar = new System.Windows.Forms.Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.btnLogin = new ReaLTaiizor.Controls.CyberButton();
             this.txtSenha = new ReaLTaiizor.Controls.CyberTextBox();
             this.txtUsuario = new ReaLTaiizor.Controls.CyberTextBox();
             this.rdbMostrarSenha = new ReaLTaiizor.Controls.CyberRadioButton();
-            this.crownDockPanel1 = new ReaLTaiizor.Docking.Crown.CrownDockPanel();
             this.foxLabel1 = new ReaLTaiizor.Controls.FoxLabel();
             this.foxLabel2 = new ReaLTaiizor.Controls.FoxLabel();
             this.label1 = new System.Windows.Forms.Label();
             this.foxLinkLabel1 = new ReaLTaiizor.Controls.FoxLinkLabel();
             this.foxLabel3 = new ReaLTaiizor.Controls.FoxLabel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnFechar = new System.Windows.Forms.Label();
+            this.crownDockPanel1 = new ReaLTaiizor.Docking.Crown.CrownDockPanel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btnFechar
-            // 
-            this.btnFechar.AutoSize = true;
-            this.btnFechar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
-            this.btnFechar.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFechar.ForeColor = System.Drawing.Color.White;
-            this.btnFechar.Location = new System.Drawing.Point(572, 9);
-            this.btnFechar.Name = "btnFechar";
-            this.btnFechar.Size = new System.Drawing.Size(34, 33);
-            this.btnFechar.TabIndex = 1;
-            this.btnFechar.Text = "X";
-            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
             // btnLogin
             // 
@@ -82,7 +70,7 @@
             this.btnLogin.Lighting = false;
             this.btnLogin.LinearGradient_Background = false;
             this.btnLogin.LinearGradientPen = false;
-            this.btnLogin.Location = new System.Drawing.Point(230, 311);
+            this.btnLogin.Location = new System.Drawing.Point(321, 294);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.PenWidth = 15;
             this.btnLogin.Rounding = true;
@@ -113,7 +101,7 @@
             this.txtSenha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
             this.txtSenha.Lighting = false;
             this.txtSenha.LinearGradientPen = false;
-            this.txtSenha.Location = new System.Drawing.Point(198, 191);
+            this.txtSenha.Location = new System.Drawing.Point(289, 174);
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.Password = true;
             this.txtSenha.PenWidth = 15;
@@ -144,7 +132,7 @@
             this.txtUsuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
             this.txtUsuario.Lighting = false;
             this.txtUsuario.LinearGradientPen = false;
-            this.txtUsuario.Location = new System.Drawing.Point(198, 105);
+            this.txtUsuario.Location = new System.Drawing.Point(289, 88);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.PenWidth = 15;
             this.txtUsuario.RGB = false;
@@ -185,7 +173,7 @@
             this.rdbMostrarSenha.LinearGradient_Background = false;
             this.rdbMostrarSenha.LinearGradient_Value = false;
             this.rdbMostrarSenha.LinearGradientPen = false;
-            this.rdbMostrarSenha.Location = new System.Drawing.Point(198, 258);
+            this.rdbMostrarSenha.Location = new System.Drawing.Point(289, 241);
             this.rdbMostrarSenha.Name = "rdbMostrarSenha";
             this.rdbMostrarSenha.RGB = false;
             this.rdbMostrarSenha.Rounding = true;
@@ -201,19 +189,11 @@
             this.rdbMostrarSenha.Timer_RGB = 300;
             this.rdbMostrarSenha.Click += new System.EventHandler(this.rdbMostrarSenha_Click);
             // 
-            // crownDockPanel1
-            // 
-            this.crownDockPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
-            this.crownDockPanel1.Location = new System.Drawing.Point(1, -5);
-            this.crownDockPanel1.Name = "crownDockPanel1";
-            this.crownDockPanel1.Size = new System.Drawing.Size(618, 60);
-            this.crownDockPanel1.TabIndex = 11;
-            // 
             // foxLabel1
             // 
             this.foxLabel1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.foxLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(88)))), ((int)(((byte)(100)))));
-            this.foxLabel1.Location = new System.Drawing.Point(219, 86);
+            this.foxLabel1.ForeColor = System.Drawing.Color.White;
+            this.foxLabel1.Location = new System.Drawing.Point(301, 70);
             this.foxLabel1.Name = "foxLabel1";
             this.foxLabel1.Size = new System.Drawing.Size(65, 19);
             this.foxLabel1.TabIndex = 22;
@@ -222,8 +202,8 @@
             // foxLabel2
             // 
             this.foxLabel2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.foxLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(88)))), ((int)(((byte)(100)))));
-            this.foxLabel2.Location = new System.Drawing.Point(219, 173);
+            this.foxLabel2.ForeColor = System.Drawing.Color.White;
+            this.foxLabel2.Location = new System.Drawing.Point(301, 157);
             this.foxLabel2.Name = "foxLabel2";
             this.foxLabel2.Size = new System.Drawing.Size(65, 19);
             this.foxLabel2.TabIndex = 23;
@@ -235,7 +215,7 @@
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
             this.label1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(281, 18);
+            this.label1.Location = new System.Drawing.Point(372, 17);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(57, 22);
             this.label1.TabIndex = 24;
@@ -248,7 +228,7 @@
             this.foxLinkLabel1.EnabledCalc = true;
             this.foxLinkLabel1.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.foxLinkLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(149)))), ((int)(((byte)(221)))));
-            this.foxLinkLabel1.Location = new System.Drawing.Point(338, 386);
+            this.foxLinkLabel1.Location = new System.Drawing.Point(429, 369);
             this.foxLinkLabel1.Name = "foxLinkLabel1";
             this.foxLinkLabel1.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(140)))), ((int)(((byte)(229)))));
             this.foxLinkLabel1.Size = new System.Drawing.Size(82, 18);
@@ -260,7 +240,7 @@
             // 
             this.foxLabel3.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.foxLabel3.ForeColor = System.Drawing.Color.White;
-            this.foxLabel3.Location = new System.Drawing.Point(199, 386);
+            this.foxLabel3.Location = new System.Drawing.Point(290, 369);
             this.foxLabel3.Name = "foxLabel3";
             this.foxLabel3.Size = new System.Drawing.Size(139, 19);
             this.foxLabel3.TabIndex = 28;
@@ -269,7 +249,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
-            this.pictureBox1.Image = global::AppMediaPlayer.Properties.Resources.logo__2_;
+            this.pictureBox1.Image = global::AppMediaPlayer.Properties.Resources.logo_improved;
             this.pictureBox1.Location = new System.Drawing.Point(12, 9);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(33, 33);
@@ -277,12 +257,34 @@
             this.pictureBox1.TabIndex = 29;
             this.pictureBox1.TabStop = false;
             // 
+            // btnFechar
+            // 
+            this.btnFechar.AutoSize = true;
+            this.btnFechar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.btnFechar.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFechar.ForeColor = System.Drawing.Color.White;
+            this.btnFechar.Location = new System.Drawing.Point(758, 8);
+            this.btnFechar.Name = "btnFechar";
+            this.btnFechar.Size = new System.Drawing.Size(34, 33);
+            this.btnFechar.TabIndex = 29;
+            this.btnFechar.Text = "X";
+            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click_1);
+            // 
+            // crownDockPanel1
+            // 
+            this.crownDockPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.crownDockPanel1.Location = new System.Drawing.Point(1, -5);
+            this.crownDockPanel1.Name = "crownDockPanel1";
+            this.crownDockPanel1.Size = new System.Drawing.Size(846, 60);
+            this.crownDockPanel1.TabIndex = 30;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(65)))), ((int)(((byte)(70)))));
-            this.ClientSize = new System.Drawing.Size(618, 440);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnFechar);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.foxLabel3);
             this.Controls.Add(this.foxLinkLabel1);
@@ -293,9 +295,9 @@
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.btnLogin);
-            this.Controls.Add(this.btnFechar);
             this.Controls.Add(this.crownDockPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
@@ -306,17 +308,17 @@
         }
 
         #endregion
-        private System.Windows.Forms.Label btnFechar;
         private ReaLTaiizor.Controls.CyberButton btnLogin;
         private ReaLTaiizor.Controls.CyberTextBox txtSenha;
         private ReaLTaiizor.Controls.CyberTextBox txtUsuario;
         private ReaLTaiizor.Controls.CyberRadioButton rdbMostrarSenha;
-        private ReaLTaiizor.Docking.Crown.CrownDockPanel crownDockPanel1;
         private ReaLTaiizor.Controls.FoxLabel foxLabel1;
         private ReaLTaiizor.Controls.FoxLabel foxLabel2;
         private System.Windows.Forms.Label label1;
         private ReaLTaiizor.Controls.FoxLinkLabel foxLinkLabel1;
         private ReaLTaiizor.Controls.FoxLabel foxLabel3;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label btnFechar;
+        private ReaLTaiizor.Docking.Crown.CrownDockPanel crownDockPanel1;
     }
 }
