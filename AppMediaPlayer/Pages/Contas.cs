@@ -20,10 +20,6 @@ namespace AppMediaPlayer.Pages
         public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
         [DllImportAttribute("user32.dll")]
         public static extern bool ReleaseCapture();
-<<<<<<< HEAD
-
-=======
->>>>>>> baa08e54af6d07656c2d0156ecfe14c0825dc408
         public Contas()
         {
             InitializeComponent();

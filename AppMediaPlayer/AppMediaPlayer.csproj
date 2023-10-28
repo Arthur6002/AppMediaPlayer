@@ -364,11 +364,11 @@
     <Compile Include="Pages\Musicas.Designer.cs">
       <DependentUpon>Musicas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Playlists.cs">
+    <Compile Include="Pages\Recomendados.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Pages\Playlists.Designer.cs">
-      <DependentUpon>Playlists.cs</DependentUpon>
+    <Compile Include="Pages\Recomendados.Designer.cs">
+      <DependentUpon>Recomendados.cs</DependentUpon>
     </Compile>
     <Compile Include="Pages\Registro.cs">
       <SubType>Form</SubType>
@@ -399,8 +399,8 @@
     <EmbeddedResource Include="Pages\Musicas.resx">
       <DependentUpon>Musicas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Pages\Playlists.resx">
-      <DependentUpon>Playlists.cs</DependentUpon>
+    <EmbeddedResource Include="Pages\Recomendados.resx">
+      <DependentUpon>Recomendados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\Registro.resx">
       <DependentUpon>Registro.cs</DependentUpon>
@@ -439,11 +439,33 @@
     <None Include="Resources\PlayButton.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Guns N Roses  Sweet Child O Mine.jpeg" />
+    <None Include="Resources\Queen  We Will Rock You1.jpg" />
+    <None Include="Resources\Iron Maiden  The Trooper.jpg" />
+    <None Include="Resources\Imagine-Dragons-Natural.jpg" />
+    <None Include="Resources\twenty one pilots Stressed Out.jpg" />
+    <None Include="Resources\Harry Styles  Sign of the Times.jpg" />
+    <None Include="Resources\Katy Perry  Roar.jpg" />
+    <None Include="Resources\Metal Gear Rising The Only Thing I Know For Real.jpg" />
+    <None Include="Resources\Nirvana  Smells Like Teen Spirit.jpg" />
+    <None Include="Resources\Kiss  I Was Made For Lovin You.jpg" />
+    <None Include="Resources\Michael Jackson  Smooth Criminal.jpg" />
+    <None Include="Resources\The Weeknd  Starboy.jpg" />
+    <None Include="Resources\Maroon 5  Sugar.jpg" />
+    <None Include="Resources\Metalica Master of Puppets.jpg" />
+    <None Include="Resources\Queen  We Will Rock You.jpg" />
+    <None Include="Resources\Higway to Hell.jpg" />
     <None Include="Resources\star.png" />
     <None Include="Resources\icon.png" />
     <None Include="Resources\orgs.png" />
     <None Include="Resources\ph.png" />
     <None Include="Resources\gorillaz_phsong.mp3" />
+    <None Include="Resources\Arctic Monkeys  Do I Wanna Know.jpg" />
+    <None Include="Resources\Ariana Grande  7 rings.jpg" />
+    <None Include="Resources\Bruno Mars  The Lazy Song.jpg" />
+    <None Include="Resources\Doom Eternal OST  The Only Thing They Fear Is You.jpg" />
+    <None Include="Resources\BLACK SABBATH  Paranoid.jpg" />
+    <None Include="Resources\Ariana Grande  7 rings1.jpg" />
     <Content Include="Resources\gorillaz_placeholder.png" />
   </ItemGroup>
   <ItemGroup>

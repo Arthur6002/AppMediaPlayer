@@ -62,16 +62,16 @@ namespace AppMediaPlayer
         //Botão PlayLists
         private void lblPlayList_Click(object sender, EventArgs e)
         {
-            Form playlist = new Pages.Playlists();
+            Form playlist = new Pages.Recomendados();
             Change_Form(pnlMain, playlist);
         }
         private void lblPlayList_MouseEnter(object sender, EventArgs e)
         {
-            lblPlayList.Font = new Font(lblMusicas.Font.Name, lblMusicas.Font.Size, FontStyle.Underline);
+            lblRecomendados.Font = new Font(lblMusicas.Font.Name, lblMusicas.Font.Size, FontStyle.Underline);
         }
         private void lblPlayList_MouseLeave(object sender, EventArgs e)
         {
-            lblPlayList.Font = new Font(lblMusicas.Font.Name, lblMusicas.Font.Size, FontStyle.Regular);
+            lblRecomendados.Font = new Font(lblMusicas.Font.Name, lblMusicas.Font.Size, FontStyle.Regular);
         }
         private void lblRecomendados_MouseEnter(object sender, EventArgs e)
         {
@@ -196,14 +196,11 @@ namespace AppMediaPlayer
             label1.Font = new Font(label1.Font.Name, label1.Font.Size, FontStyle.Regular);
 
         }
-<<<<<<< HEAD
 
         private void lblInicio_Click(object sender, EventArgs e)
         {
             Form inicio = new Pages.Inicio();
             Change_Form(pnlMain, inicio);
         }
-=======
->>>>>>> baa08e54af6d07656c2d0156ecfe14c0825dc408
     }
 }

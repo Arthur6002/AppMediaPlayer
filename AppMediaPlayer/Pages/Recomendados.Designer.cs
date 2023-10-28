@@ -1,6 +1,6 @@
 ﻿namespace AppMediaPlayer.Pages
 {
-    partial class Musicas
+    partial class Recomendados
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.nightLabel3 = new ReaLTaiizor.Controls.NightLabel();
-            this.nightLabel4 = new ReaLTaiizor.Controls.NightLabel();
-            this.nightLabel7 = new ReaLTaiizor.Controls.NightLabel();
-            this.nightLabel8 = new ReaLTaiizor.Controls.NightLabel();
             this.nightLabel5 = new ReaLTaiizor.Controls.NightLabel();
             this.nightLabel6 = new ReaLTaiizor.Controls.NightLabel();
             this.nightLabel9 = new ReaLTaiizor.Controls.NightLabel();
@@ -41,10 +37,14 @@
             this.nightLabel11 = new ReaLTaiizor.Controls.NightLabel();
             this.nightLabel12 = new ReaLTaiizor.Controls.NightLabel();
             this.cyberGroupBox6 = new ReaLTaiizor.Controls.CyberGroupBox();
-            this.cyberGroupBox4 = new ReaLTaiizor.Controls.CyberGroupBox();
-            this.nightLabel2 = new ReaLTaiizor.Controls.NightLabel();
             this.nightLabel1 = new ReaLTaiizor.Controls.NightLabel();
+            this.nightLabel7 = new ReaLTaiizor.Controls.NightLabel();
+            this.nightLabel2 = new ReaLTaiizor.Controls.NightLabel();
+            this.nightLabel8 = new ReaLTaiizor.Controls.NightLabel();
             this.cyberGroupBox2 = new ReaLTaiizor.Controls.CyberGroupBox();
+            this.cyberGroupBox4 = new ReaLTaiizor.Controls.CyberGroupBox();
+            this.nightLabel3 = new ReaLTaiizor.Controls.NightLabel();
+            this.nightLabel4 = new ReaLTaiizor.Controls.NightLabel();
             this.cyberGroupBox1 = new ReaLTaiizor.Controls.CyberGroupBox();
             this.hopePictureBox3 = new ReaLTaiizor.Controls.HopePictureBox();
             this.hopePictureBox5 = new ReaLTaiizor.Controls.HopePictureBox();
@@ -52,8 +52,7 @@
             this.hopePictureBox1 = new ReaLTaiizor.Controls.HopePictureBox();
             this.hopePictureBox4 = new ReaLTaiizor.Controls.HopePictureBox();
             this.hopePictureBox2 = new ReaLTaiizor.Controls.HopePictureBox();
-            this.cyberGroupBox2.SuspendLayout();
-            this.cyberGroupBox1.SuspendLayout();
+            this.cyberGroupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.hopePictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.hopePictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.hopePictureBox6)).BeginInit();
@@ -62,69 +61,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.hopePictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // nightLabel3
-            // 
-            this.nightLabel3.AutoSize = true;
-            this.nightLabel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
-            this.nightLabel3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.nightLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(118)))), ((int)(((byte)(127)))));
-            this.nightLabel3.Location = new System.Drawing.Point(503, 244);
-            this.nightLabel3.Name = "nightLabel3";
-            this.nightLabel3.Size = new System.Drawing.Size(42, 15);
-            this.nightLabel3.TabIndex = 8;
-            this.nightLabel3.Text = "7 rings";
-            this.nightLabel3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // nightLabel4
-            // 
-            this.nightLabel4.AutoSize = true;
-            this.nightLabel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
-            this.nightLabel4.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.nightLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(118)))), ((int)(((byte)(127)))));
-            this.nightLabel4.Location = new System.Drawing.Point(88, 211);
-            this.nightLabel4.Name = "nightLabel4";
-            this.nightLabel4.Size = new System.Drawing.Size(82, 15);
-            this.nightLabel4.TabIndex = 7;
-            this.nightLabel4.Text = "Ariana Grande";
-            this.nightLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // nightLabel7
-            // 
-            this.nightLabel7.AutoSize = true;
-            this.nightLabel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
-            this.nightLabel7.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.nightLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(118)))), ((int)(((byte)(127)))));
-            this.nightLabel7.Location = new System.Drawing.Point(798, 244);
-            this.nightLabel7.Name = "nightLabel7";
-            this.nightLabel7.Size = new System.Drawing.Size(82, 15);
-            this.nightLabel7.TabIndex = 39;
-            this.nightLabel7.Text = "The Lazy Song";
-            this.nightLabel7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // nightLabel8
-            // 
-            this.nightLabel8.AutoSize = true;
-            this.nightLabel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
-            this.nightLabel8.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.nightLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(118)))), ((int)(((byte)(127)))));
-            this.nightLabel8.Location = new System.Drawing.Point(804, 229);
-            this.nightLabel8.Name = "nightLabel8";
-            this.nightLabel8.Size = new System.Drawing.Size(71, 15);
-            this.nightLabel8.TabIndex = 38;
-            this.nightLabel8.Text = "Bruno Mars ";
-            this.nightLabel8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // nightLabel5
             // 
             this.nightLabel5.AutoSize = true;
             this.nightLabel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.nightLabel5.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.nightLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(118)))), ((int)(((byte)(127)))));
-            this.nightLabel5.Location = new System.Drawing.Point(143, 496);
+            this.nightLabel5.Location = new System.Drawing.Point(75, 226);
             this.nightLabel5.Name = "nightLabel5";
-            this.nightLabel5.Size = new System.Drawing.Size(140, 15);
-            this.nightLabel5.TabIndex = 47;
-            this.nightLabel5.Text = "The Only Thing They Fear";
+            this.nightLabel5.Size = new System.Drawing.Size(111, 15);
+            this.nightLabel5.TabIndex = 71;
+            this.nightLabel5.Text = "Sweet Child O Mine";
             this.nightLabel5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // nightLabel6
@@ -133,11 +80,11 @@
             this.nightLabel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.nightLabel6.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.nightLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(118)))), ((int)(((byte)(127)))));
-            this.nightLabel6.Location = new System.Drawing.Point(814, 500);
+            this.nightLabel6.Location = new System.Drawing.Point(794, 500);
             this.nightLabel6.Name = "nightLabel6";
-            this.nightLabel6.Size = new System.Drawing.Size(42, 15);
-            this.nightLabel6.TabIndex = 51;
-            this.nightLabel6.Text = "Queen";
+            this.nightLabel6.Size = new System.Drawing.Size(97, 15);
+            this.nightLabel6.TabIndex = 75;
+            this.nightLabel6.Text = "Smooth Criminal";
             this.nightLabel6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // nightLabel9
@@ -146,11 +93,11 @@
             this.nightLabel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.nightLabel9.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.nightLabel9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(118)))), ((int)(((byte)(127)))));
-            this.nightLabel9.Location = new System.Drawing.Point(162, 483);
+            this.nightLabel9.Location = new System.Drawing.Point(175, 485);
             this.nightLabel9.Name = "nightLabel9";
-            this.nightLabel9.Size = new System.Drawing.Size(103, 15);
-            this.nightLabel9.TabIndex = 46;
-            this.nightLabel9.Text = "Doom Eternal OST";
+            this.nightLabel9.Size = new System.Drawing.Size(79, 15);
+            this.nightLabel9.TabIndex = 70;
+            this.nightLabel9.Text = "Guns N Roses";
             this.nightLabel9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // nightLabel10
@@ -159,11 +106,11 @@
             this.nightLabel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.nightLabel10.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.nightLabel10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(118)))), ((int)(((byte)(127)))));
-            this.nightLabel10.Location = new System.Drawing.Point(787, 485);
+            this.nightLabel10.Location = new System.Drawing.Point(796, 485);
             this.nightLabel10.Name = "nightLabel10";
-            this.nightLabel10.Size = new System.Drawing.Size(99, 15);
-            this.nightLabel10.TabIndex = 50;
-            this.nightLabel10.Text = "We Will Rock You";
+            this.nightLabel10.Size = new System.Drawing.Size(93, 15);
+            this.nightLabel10.TabIndex = 74;
+            this.nightLabel10.Text = "Michael Jackson";
             this.nightLabel10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // cyberGroupBox3
@@ -180,6 +127,7 @@
             this.cyberGroupBox3.ColorLighting = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(200)))), ((int)(((byte)(238)))));
             this.cyberGroupBox3.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.cyberGroupBox3.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
+            this.cyberGroupBox3.Controls.Add(this.nightLabel5);
             this.cyberGroupBox3.CyberGroupBoxStyle = ReaLTaiizor.Enum.Cyber.StateStyle.Custom;
             this.cyberGroupBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
             this.cyberGroupBox3.Lighting = false;
@@ -193,7 +141,7 @@
             this.cyberGroupBox3.RoundingInt = 60;
             this.cyberGroupBox3.Size = new System.Drawing.Size(250, 250);
             this.cyberGroupBox3.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
-            this.cyberGroupBox3.TabIndex = 48;
+            this.cyberGroupBox3.TabIndex = 72;
             this.cyberGroupBox3.Tag = "Cyber";
             this.cyberGroupBox3.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             this.cyberGroupBox3.Timer_RGB = 300;
@@ -225,7 +173,7 @@
             this.cyberGroupBox5.RoundingInt = 60;
             this.cyberGroupBox5.Size = new System.Drawing.Size(250, 250);
             this.cyberGroupBox5.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
-            this.cyberGroupBox5.TabIndex = 52;
+            this.cyberGroupBox5.TabIndex = 76;
             this.cyberGroupBox5.Tag = "Cyber";
             this.cyberGroupBox5.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             this.cyberGroupBox5.Timer_RGB = 300;
@@ -236,11 +184,11 @@
             this.nightLabel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.nightLabel11.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.nightLabel11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(118)))), ((int)(((byte)(127)))));
-            this.nightLabel11.Location = new System.Drawing.Point(482, 500);
+            this.nightLabel11.Location = new System.Drawing.Point(458, 500);
             this.nightLabel11.Name = "nightLabel11";
-            this.nightLabel11.Size = new System.Drawing.Size(85, 15);
-            this.nightLabel11.TabIndex = 43;
-            this.nightLabel11.Text = "Higway to Hell";
+            this.nightLabel11.Size = new System.Drawing.Size(140, 15);
+            this.nightLabel11.TabIndex = 67;
+            this.nightLabel11.Text = "The Only Thing They Fear";
             this.nightLabel11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // nightLabel12
@@ -249,11 +197,11 @@
             this.nightLabel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.nightLabel12.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.nightLabel12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(118)))), ((int)(((byte)(127)))));
-            this.nightLabel12.Location = new System.Drawing.Point(501, 485);
+            this.nightLabel12.Location = new System.Drawing.Point(475, 485);
             this.nightLabel12.Name = "nightLabel12";
-            this.nightLabel12.Size = new System.Drawing.Size(44, 15);
-            this.nightLabel12.TabIndex = 42;
-            this.nightLabel12.Text = "AC/DC";
+            this.nightLabel12.Size = new System.Drawing.Size(103, 15);
+            this.nightLabel12.TabIndex = 66;
+            this.nightLabel12.Text = "Doom Eternal OST";
             this.nightLabel12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // cyberGroupBox6
@@ -283,10 +231,94 @@
             this.cyberGroupBox6.RoundingInt = 60;
             this.cyberGroupBox6.Size = new System.Drawing.Size(250, 250);
             this.cyberGroupBox6.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
-            this.cyberGroupBox6.TabIndex = 44;
+            this.cyberGroupBox6.TabIndex = 68;
             this.cyberGroupBox6.Tag = "Cyber";
             this.cyberGroupBox6.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             this.cyberGroupBox6.Timer_RGB = 300;
+            // 
+            // nightLabel1
+            // 
+            this.nightLabel1.AutoSize = true;
+            this.nightLabel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.nightLabel1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.nightLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(118)))), ((int)(((byte)(127)))));
+            this.nightLabel1.Location = new System.Drawing.Point(191, 244);
+            this.nightLabel1.Name = "nightLabel1";
+            this.nightLabel1.Size = new System.Drawing.Size(46, 15);
+            this.nightLabel1.TabIndex = 59;
+            this.nightLabel1.Text = "Natural";
+            this.nightLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // nightLabel7
+            // 
+            this.nightLabel7.AutoSize = true;
+            this.nightLabel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.nightLabel7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.nightLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(118)))), ((int)(((byte)(127)))));
+            this.nightLabel7.Location = new System.Drawing.Point(791, 244);
+            this.nightLabel7.Name = "nightLabel7";
+            this.nightLabel7.Size = new System.Drawing.Size(99, 15);
+            this.nightLabel7.TabIndex = 63;
+            this.nightLabel7.Text = "We Will Rock You";
+            this.nightLabel7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // nightLabel2
+            // 
+            this.nightLabel2.AutoSize = true;
+            this.nightLabel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.nightLabel2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.nightLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(118)))), ((int)(((byte)(127)))));
+            this.nightLabel2.Location = new System.Drawing.Point(168, 229);
+            this.nightLabel2.Name = "nightLabel2";
+            this.nightLabel2.Size = new System.Drawing.Size(97, 15);
+            this.nightLabel2.TabIndex = 58;
+            this.nightLabel2.Text = "Imagine Dragons";
+            this.nightLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // nightLabel8
+            // 
+            this.nightLabel8.AutoSize = true;
+            this.nightLabel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.nightLabel8.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.nightLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(118)))), ((int)(((byte)(127)))));
+            this.nightLabel8.Location = new System.Drawing.Point(816, 229);
+            this.nightLabel8.Name = "nightLabel8";
+            this.nightLabel8.Size = new System.Drawing.Size(42, 15);
+            this.nightLabel8.TabIndex = 62;
+            this.nightLabel8.Text = "Queen";
+            this.nightLabel8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // cyberGroupBox2
+            // 
+            this.cyberGroupBox2.Alpha = 20;
+            this.cyberGroupBox2.BackColor = System.Drawing.Color.Transparent;
+            this.cyberGroupBox2.Background = true;
+            this.cyberGroupBox2.Background_WidthPen = 3F;
+            this.cyberGroupBox2.BackgroundPen = true;
+            this.cyberGroupBox2.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.cyberGroupBox2.ColorBackground_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.cyberGroupBox2.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
+            this.cyberGroupBox2.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(76)))), ((int)(((byte)(232)))));
+            this.cyberGroupBox2.ColorLighting = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(200)))), ((int)(((byte)(238)))));
+            this.cyberGroupBox2.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.cyberGroupBox2.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
+            this.cyberGroupBox2.CyberGroupBoxStyle = ReaLTaiizor.Enum.Cyber.StateStyle.Custom;
+            this.cyberGroupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
+            this.cyberGroupBox2.Lighting = false;
+            this.cyberGroupBox2.LinearGradient_Background = false;
+            this.cyberGroupBox2.LinearGradientPen = false;
+            this.cyberGroupBox2.Location = new System.Drawing.Point(86, 18);
+            this.cyberGroupBox2.Name = "cyberGroupBox2";
+            this.cyberGroupBox2.PenWidth = 15;
+            this.cyberGroupBox2.RGB = false;
+            this.cyberGroupBox2.Rounding = true;
+            this.cyberGroupBox2.RoundingInt = 60;
+            this.cyberGroupBox2.Size = new System.Drawing.Size(250, 250);
+            this.cyberGroupBox2.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
+            this.cyberGroupBox2.TabIndex = 60;
+            this.cyberGroupBox2.Tag = "Cyber";
+            this.cyberGroupBox2.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.cyberGroupBox2.Timer_RGB = 300;
             // 
             // cyberGroupBox4
             // 
@@ -315,70 +347,36 @@
             this.cyberGroupBox4.RoundingInt = 60;
             this.cyberGroupBox4.Size = new System.Drawing.Size(250, 250);
             this.cyberGroupBox4.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
-            this.cyberGroupBox4.TabIndex = 40;
+            this.cyberGroupBox4.TabIndex = 64;
             this.cyberGroupBox4.Tag = "Cyber";
             this.cyberGroupBox4.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             this.cyberGroupBox4.Timer_RGB = 300;
             // 
-            // nightLabel2
+            // nightLabel3
             // 
-            this.nightLabel2.AutoSize = true;
-            this.nightLabel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
-            this.nightLabel2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.nightLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(118)))), ((int)(((byte)(127)))));
-            this.nightLabel2.Location = new System.Drawing.Point(81, 210);
-            this.nightLabel2.Name = "nightLabel2";
-            this.nightLabel2.Size = new System.Drawing.Size(89, 15);
-            this.nightLabel2.TabIndex = 30;
-            this.nightLabel2.Text = "Arctic Monkeys";
-            this.nightLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.nightLabel3.AutoSize = true;
+            this.nightLabel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.nightLabel3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.nightLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(118)))), ((int)(((byte)(127)))));
+            this.nightLabel3.Location = new System.Drawing.Point(488, 244);
+            this.nightLabel3.Name = "nightLabel3";
+            this.nightLabel3.Size = new System.Drawing.Size(69, 15);
+            this.nightLabel3.TabIndex = 55;
+            this.nightLabel3.Text = "The Trooper";
+            this.nightLabel3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // nightLabel1
+            // nightLabel4
             // 
-            this.nightLabel1.AutoSize = true;
-            this.nightLabel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
-            this.nightLabel1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.nightLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(118)))), ((int)(((byte)(127)))));
-            this.nightLabel1.Location = new System.Drawing.Point(77, 226);
-            this.nightLabel1.Name = "nightLabel1";
-            this.nightLabel1.Size = new System.Drawing.Size(101, 15);
-            this.nightLabel1.TabIndex = 31;
-            this.nightLabel1.Text = "Do I Wanna Know";
-            this.nightLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // cyberGroupBox2
-            // 
-            this.cyberGroupBox2.Alpha = 20;
-            this.cyberGroupBox2.BackColor = System.Drawing.Color.Transparent;
-            this.cyberGroupBox2.Background = true;
-            this.cyberGroupBox2.Background_WidthPen = 3F;
-            this.cyberGroupBox2.BackgroundPen = true;
-            this.cyberGroupBox2.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
-            this.cyberGroupBox2.ColorBackground_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
-            this.cyberGroupBox2.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.cyberGroupBox2.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(76)))), ((int)(((byte)(232)))));
-            this.cyberGroupBox2.ColorLighting = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(200)))), ((int)(((byte)(238)))));
-            this.cyberGroupBox2.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
-            this.cyberGroupBox2.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.cyberGroupBox2.Controls.Add(this.nightLabel1);
-            this.cyberGroupBox2.Controls.Add(this.nightLabel2);
-            this.cyberGroupBox2.CyberGroupBoxStyle = ReaLTaiizor.Enum.Cyber.StateStyle.Custom;
-            this.cyberGroupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
-            this.cyberGroupBox2.Lighting = false;
-            this.cyberGroupBox2.LinearGradient_Background = false;
-            this.cyberGroupBox2.LinearGradientPen = false;
-            this.cyberGroupBox2.Location = new System.Drawing.Point(86, 18);
-            this.cyberGroupBox2.Name = "cyberGroupBox2";
-            this.cyberGroupBox2.PenWidth = 15;
-            this.cyberGroupBox2.RGB = false;
-            this.cyberGroupBox2.Rounding = true;
-            this.cyberGroupBox2.RoundingInt = 60;
-            this.cyberGroupBox2.Size = new System.Drawing.Size(250, 250);
-            this.cyberGroupBox2.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
-            this.cyberGroupBox2.TabIndex = 32;
-            this.cyberGroupBox2.Tag = "Cyber";
-            this.cyberGroupBox2.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
-            this.cyberGroupBox2.Timer_RGB = 300;
+            this.nightLabel4.AutoSize = true;
+            this.nightLabel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.nightLabel4.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.nightLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(118)))), ((int)(((byte)(127)))));
+            this.nightLabel4.Location = new System.Drawing.Point(487, 229);
+            this.nightLabel4.Name = "nightLabel4";
+            this.nightLabel4.Size = new System.Drawing.Size(71, 15);
+            this.nightLabel4.TabIndex = 54;
+            this.nightLabel4.Text = "Iron Maiden";
+            this.nightLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // cyberGroupBox1
             // 
@@ -394,7 +392,6 @@
             this.cyberGroupBox1.ColorLighting = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(200)))), ((int)(((byte)(238)))));
             this.cyberGroupBox1.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.cyberGroupBox1.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.cyberGroupBox1.Controls.Add(this.nightLabel4);
             this.cyberGroupBox1.CyberGroupBoxStyle = ReaLTaiizor.Enum.Cyber.StateStyle.Custom;
             this.cyberGroupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
             this.cyberGroupBox1.Lighting = false;
@@ -408,7 +405,7 @@
             this.cyberGroupBox1.RoundingInt = 60;
             this.cyberGroupBox1.Size = new System.Drawing.Size(250, 250);
             this.cyberGroupBox1.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
-            this.cyberGroupBox1.TabIndex = 28;
+            this.cyberGroupBox1.TabIndex = 56;
             this.cyberGroupBox1.Tag = "Cyber";
             this.cyberGroupBox1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             this.cyberGroupBox1.Timer_RGB = 300;
@@ -416,14 +413,14 @@
             // hopePictureBox3
             // 
             this.hopePictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
-            this.hopePictureBox3.Image = global::AppMediaPlayer.Properties.Resources.Doom_Eternal_OST__The_Only_Thing_They_Fear_Is_You;
+            this.hopePictureBox3.Image = global::AppMediaPlayer.Properties.Resources.Guns_N_Roses__Sweet_Child_O_Mine;
             this.hopePictureBox3.Location = new System.Drawing.Point(118, 301);
             this.hopePictureBox3.Name = "hopePictureBox3";
             this.hopePictureBox3.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
             this.hopePictureBox3.Size = new System.Drawing.Size(191, 180);
             this.hopePictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.hopePictureBox3.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
-            this.hopePictureBox3.TabIndex = 45;
+            this.hopePictureBox3.TabIndex = 69;
             this.hopePictureBox3.TabStop = false;
             this.hopePictureBox3.TextRenderingType = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             this.hopePictureBox3.Click += new System.EventHandler(this.hopePictureBox3_Click);
@@ -431,14 +428,14 @@
             // hopePictureBox5
             // 
             this.hopePictureBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
-            this.hopePictureBox5.Image = global::AppMediaPlayer.Properties.Resources.Queen__We_Will_Rock_You;
+            this.hopePictureBox5.Image = global::AppMediaPlayer.Properties.Resources.Michael_Jackson__Smooth_Criminal;
             this.hopePictureBox5.Location = new System.Drawing.Point(741, 301);
             this.hopePictureBox5.Name = "hopePictureBox5";
             this.hopePictureBox5.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
             this.hopePictureBox5.Size = new System.Drawing.Size(191, 180);
             this.hopePictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.hopePictureBox5.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
-            this.hopePictureBox5.TabIndex = 49;
+            this.hopePictureBox5.TabIndex = 73;
             this.hopePictureBox5.TabStop = false;
             this.hopePictureBox5.TextRenderingType = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             this.hopePictureBox5.Click += new System.EventHandler(this.hopePictureBox5_Click);
@@ -446,14 +443,14 @@
             // hopePictureBox6
             // 
             this.hopePictureBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
-            this.hopePictureBox6.Image = global::AppMediaPlayer.Properties.Resources.Higway_to_Hell;
+            this.hopePictureBox6.Image = global::AppMediaPlayer.Properties.Resources.Doom_Eternal_OST__The_Only_Thing_They_Fear_Is_You;
             this.hopePictureBox6.Location = new System.Drawing.Point(429, 301);
             this.hopePictureBox6.Name = "hopePictureBox6";
             this.hopePictureBox6.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
             this.hopePictureBox6.Size = new System.Drawing.Size(191, 180);
             this.hopePictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.hopePictureBox6.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
-            this.hopePictureBox6.TabIndex = 41;
+            this.hopePictureBox6.TabIndex = 65;
             this.hopePictureBox6.TabStop = false;
             this.hopePictureBox6.TextRenderingType = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             this.hopePictureBox6.Click += new System.EventHandler(this.hopePictureBox6_Click);
@@ -461,14 +458,14 @@
             // hopePictureBox1
             // 
             this.hopePictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
-            this.hopePictureBox1.Image = global::AppMediaPlayer.Properties.Resources.Arctic_Monkeys__Do_I_Wanna_Know;
+            this.hopePictureBox1.Image = global::AppMediaPlayer.Properties.Resources.Imagine_Dragons_Natural;
             this.hopePictureBox1.Location = new System.Drawing.Point(118, 45);
             this.hopePictureBox1.Name = "hopePictureBox1";
             this.hopePictureBox1.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
             this.hopePictureBox1.Size = new System.Drawing.Size(191, 180);
             this.hopePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.hopePictureBox1.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
-            this.hopePictureBox1.TabIndex = 29;
+            this.hopePictureBox1.TabIndex = 57;
             this.hopePictureBox1.TabStop = false;
             this.hopePictureBox1.TextRenderingType = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             this.hopePictureBox1.Click += new System.EventHandler(this.hopePictureBox1_Click);
@@ -476,14 +473,14 @@
             // hopePictureBox4
             // 
             this.hopePictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
-            this.hopePictureBox4.Image = global::AppMediaPlayer.Properties.Resources.Bruno_Mars__The_Lazy_Song;
+            this.hopePictureBox4.Image = global::AppMediaPlayer.Properties.Resources.Queen__We_Will_Rock_You1;
             this.hopePictureBox4.Location = new System.Drawing.Point(741, 45);
             this.hopePictureBox4.Name = "hopePictureBox4";
             this.hopePictureBox4.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
             this.hopePictureBox4.Size = new System.Drawing.Size(191, 180);
             this.hopePictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.hopePictureBox4.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
-            this.hopePictureBox4.TabIndex = 37;
+            this.hopePictureBox4.TabIndex = 61;
             this.hopePictureBox4.TabStop = false;
             this.hopePictureBox4.TextRenderingType = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             this.hopePictureBox4.Click += new System.EventHandler(this.hopePictureBox4_Click);
@@ -491,25 +488,24 @@
             // hopePictureBox2
             // 
             this.hopePictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
-            this.hopePictureBox2.Image = global::AppMediaPlayer.Properties.Resources.Ariana_Grande__7_rings;
+            this.hopePictureBox2.Image = global::AppMediaPlayer.Properties.Resources.Iron_Maiden__The_Trooper;
             this.hopePictureBox2.Location = new System.Drawing.Point(429, 45);
             this.hopePictureBox2.Name = "hopePictureBox2";
             this.hopePictureBox2.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
             this.hopePictureBox2.Size = new System.Drawing.Size(191, 180);
             this.hopePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.hopePictureBox2.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
-            this.hopePictureBox2.TabIndex = 6;
+            this.hopePictureBox2.TabIndex = 53;
             this.hopePictureBox2.TabStop = false;
             this.hopePictureBox2.TextRenderingType = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             this.hopePictureBox2.Click += new System.EventHandler(this.hopePictureBox2_Click);
             // 
-            // Musicas
+            // Recomendados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(65)))), ((int)(((byte)(70)))));
             this.ClientSize = new System.Drawing.Size(1045, 542);
-            this.Controls.Add(this.nightLabel5);
             this.Controls.Add(this.nightLabel6);
             this.Controls.Add(this.nightLabel9);
             this.Controls.Add(this.nightLabel10);
@@ -521,22 +517,25 @@
             this.Controls.Add(this.nightLabel12);
             this.Controls.Add(this.hopePictureBox6);
             this.Controls.Add(this.cyberGroupBox6);
+            this.Controls.Add(this.nightLabel1);
             this.Controls.Add(this.nightLabel7);
+            this.Controls.Add(this.nightLabel2);
             this.Controls.Add(this.nightLabel8);
             this.Controls.Add(this.hopePictureBox1);
             this.Controls.Add(this.hopePictureBox4);
             this.Controls.Add(this.cyberGroupBox2);
             this.Controls.Add(this.cyberGroupBox4);
             this.Controls.Add(this.nightLabel3);
+            this.Controls.Add(this.nightLabel4);
             this.Controls.Add(this.hopePictureBox2);
             this.Controls.Add(this.cyberGroupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Musicas";
-            this.Text = "Musicas";
-            this.cyberGroupBox2.ResumeLayout(false);
-            this.cyberGroupBox2.PerformLayout();
-            this.cyberGroupBox1.ResumeLayout(false);
-            this.cyberGroupBox1.PerformLayout();
+            this.Location = new System.Drawing.Point(227, 99);
+            this.Name = "Recomendados";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "Playlists";
+            this.cyberGroupBox3.ResumeLayout(false);
+            this.cyberGroupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.hopePictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.hopePictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.hopePictureBox6)).EndInit();
@@ -549,13 +548,7 @@
         }
 
         #endregion
-        private ReaLTaiizor.Controls.NightLabel nightLabel3;
-        private ReaLTaiizor.Controls.NightLabel nightLabel4;
-        private ReaLTaiizor.Controls.HopePictureBox hopePictureBox2;
-        private ReaLTaiizor.Controls.NightLabel nightLabel7;
-        private ReaLTaiizor.Controls.NightLabel nightLabel8;
-        private ReaLTaiizor.Controls.HopePictureBox hopePictureBox4;
-        private ReaLTaiizor.Controls.HopePictureBox hopePictureBox1;
+
         private ReaLTaiizor.Controls.NightLabel nightLabel5;
         private ReaLTaiizor.Controls.NightLabel nightLabel6;
         private ReaLTaiizor.Controls.NightLabel nightLabel9;
@@ -568,10 +561,17 @@
         private ReaLTaiizor.Controls.NightLabel nightLabel12;
         private ReaLTaiizor.Controls.HopePictureBox hopePictureBox6;
         private ReaLTaiizor.Controls.CyberGroupBox cyberGroupBox6;
-        private ReaLTaiizor.Controls.CyberGroupBox cyberGroupBox4;
-        private ReaLTaiizor.Controls.NightLabel nightLabel2;
         private ReaLTaiizor.Controls.NightLabel nightLabel1;
+        private ReaLTaiizor.Controls.NightLabel nightLabel7;
+        private ReaLTaiizor.Controls.NightLabel nightLabel2;
+        private ReaLTaiizor.Controls.NightLabel nightLabel8;
+        private ReaLTaiizor.Controls.HopePictureBox hopePictureBox1;
+        private ReaLTaiizor.Controls.HopePictureBox hopePictureBox4;
         private ReaLTaiizor.Controls.CyberGroupBox cyberGroupBox2;
+        private ReaLTaiizor.Controls.CyberGroupBox cyberGroupBox4;
+        private ReaLTaiizor.Controls.NightLabel nightLabel3;
+        private ReaLTaiizor.Controls.NightLabel nightLabel4;
+        private ReaLTaiizor.Controls.HopePictureBox hopePictureBox2;
         private ReaLTaiizor.Controls.CyberGroupBox cyberGroupBox1;
     }
 }

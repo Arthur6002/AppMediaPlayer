@@ -38,6 +38,12 @@ namespace AppMediaPlayer.Pages
         {
             ManageUser.criarUsuario(txtUsuario.TextButton, txtSenha.TextButton, txtEmail.TextButton);
             FormController.ShowForm(this, new Login());
+
+        }
+
+        private void rdbMostrarSenha_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

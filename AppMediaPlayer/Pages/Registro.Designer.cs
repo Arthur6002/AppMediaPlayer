@@ -282,6 +282,7 @@
             this.rdbMostrarSenha.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             this.rdbMostrarSenha.Timer_Effect_1 = 1;
             this.rdbMostrarSenha.Timer_RGB = 300;
+            this.rdbMostrarSenha.Load += new System.EventHandler(this.rdbMostrarSenha_Load);
             this.rdbMostrarSenha.Click += new System.EventHandler(this.rdbMostrarSenha_Click);
             // 
             // foxLabel4
