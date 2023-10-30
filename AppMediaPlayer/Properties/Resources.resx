@@ -124,17 +124,11 @@
   <data name="Katy Perry  Roar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Katy Perry  Roar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="orgs" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\orgs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Harry Styles  Sign of the Times" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Harry Styles  Sign of the Times.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="usuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\usuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="logo_improved" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logo_improved.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Kiss  I Was Made For Lovin You" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Kiss  I Was Made For Lovin You.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,6 +148,9 @@
   <data name="Arctic Monkeys  Do I Wanna Know" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Arctic Monkeys  Do I Wanna Know.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="logo__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="star" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\star.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -163,8 +160,8 @@
   <data name="Ariana Grande  7 rings" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ariana Grande  7 rings.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Imagine-Dragons-Natural" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Imagine-Dragons-Natural.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="plus_7_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plus-7-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -174,9 +171,6 @@
   </data>
   <data name="usuario1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\usuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BLACK SABBATH  Paranoid" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BLACK SABBATH  Paranoid.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Pause" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pause.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,8 +196,14 @@
   <data name="plussquare_110959" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\plussquare_110959.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Pause1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pause.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Guns N Roses  Sweet Child O Mine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Guns N Roses  Sweet Child O Mine.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="gorillaz_placeholder" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gorillaz_placeholder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -220,8 +220,8 @@
   <data name="twenty one pilots Stressed Out" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\twenty one pilots Stressed Out.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ph" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="BLACK SABBATH  Paranoid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BLACK SABBATH  Paranoid.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Metalica Master of Puppets" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Metalica Master of Puppets.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -229,8 +229,8 @@
   <data name="Metal Gear Rising The Only Thing I Know For Real" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Metal Gear Rising The Only Thing I Know For Real.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="logo__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logo (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Imagine-Dragons-Natural" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Imagine-Dragons-Natural.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="plus_7_512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\plus-7-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -241,8 +241,8 @@
   <data name="PlayButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PlayButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="plus_7_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\plus-7-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="orgs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\orgs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="plussquare_1109591" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\plussquare_110959.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -250,7 +250,10 @@
   <data name="Nirvana  Smells Like Teen Spirit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nirvana  Smells Like Teen Spirit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Guns N Roses  Sweet Child O Mine" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Guns N Roses  Sweet Child O Mine.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="logo_improved" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo_improved.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="volume" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\volume.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

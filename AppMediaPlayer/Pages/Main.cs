@@ -20,7 +20,7 @@ namespace AppMediaPlayer
 
         bool Play = true;
 
-        MusicController Music_Con = new MusicController();
+        MusicController mc = new MusicController();
 
         public Main()
         {
@@ -90,16 +90,15 @@ namespace AppMediaPlayer
 
             if (!Song.Playing)
             {
-                Music_Con.Resume();
+                mc.Resume();
                 btnPlay.Image = Properties.Resources.Pause;
                 Song.Playing = true;
+                return;
             }
-            else
-            {
-                Music_Con.Pause();
-                btnPlay.Image = Properties.Resources.Play;
-                Song.Playing = false;
-            }
+
+            mc.Pause();
+            btnPlay.Image = Properties.Resources.Play;
+            Song.Playing = false;
         }
 
 
@@ -111,9 +110,10 @@ namespace AppMediaPlayer
         private void label3_Click(object sender, EventArgs e)
         {
             DialogResult result = MessageBox.Show("Tem certeza de que deseja sair da sua conta e voltar à tela inicial?", "Retorno à Tela Inicial", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
-            if (result == DialogResult.Yes)
-                FormController.ShowForm(this, new Contas());
-            return;
+            if (result == DialogResult.No)
+                return;
+            mc.Stop();
+            FormController.ShowForm(this, new Contas());
         }
 
         public const int WM_NCLBUTTONDOWN = 0xA1;
@@ -132,7 +132,6 @@ namespace AppMediaPlayer
 
         private void Song_Refresher_Tick(object sender, EventArgs e)
         {
-
             if (!Song.Playing)
             {
                 if (Song.Name != null || Song.Name != " ")
@@ -147,9 +146,7 @@ namespace AppMediaPlayer
                 pbox_cover.Visible = false;
 
                 Play = false;
-
             }
-            else
             {
                 btnPlay.Image = Properties.Resources.Pause;
 
@@ -168,6 +165,9 @@ namespace AppMediaPlayer
             }
             Console.WriteLine("Tocando? " + Song.Playing);
 
+
+            Console.WriteLine(mc.getWO().Volume);
+
         }
 
         private void sldrVolume_Click(object sender, EventArgs e)
@@ -182,7 +182,7 @@ namespace AppMediaPlayer
         }
 
         private void lblMusicas_MouseHover(object sender, EventArgs e)
-        {   
+        {
             Cursor.Current = Cursors.Default;
         }
 
@@ -201,6 +201,16 @@ namespace AppMediaPlayer
         {
             Form inicio = new Pages.Inicio();
             Change_Form(pnlMain, inicio);
+        }
+
+
+
+        private void slider_volume_MouseUp(object sender, MouseEventArgs e)
+        {
+            double vol = (slider_volume.Value / 100.0);
+            float vol_float = (float)vol * 1.0f;
+            Console.WriteLine("vol divido:" + vol);
+            mc.getWO().Volume = vol_float;
         }
     }
 }
