@@ -22,6 +22,17 @@ namespace AppMediaPlayer.Controller
         static MediaFoundationReader MFR;
         static WasapiOut wo;
 
+
+        public MediaFoundationReader getMFR()
+        {
+            return MFR;
+        }
+
+        public WasapiOut getWO()
+        {
+            return wo;
+        }
+
         public void Play(string Name, string Artist, string album, string url, string cover)
         {
             if (Song.Playing)
@@ -50,6 +61,7 @@ namespace AppMediaPlayer.Controller
 
             wo.Init(MFR);
             wo.Play();
+            wo.Volume = 1;
 
             Console.WriteLine($"Tocando {Name}, Album {album}, Artista {Artist}");
         }

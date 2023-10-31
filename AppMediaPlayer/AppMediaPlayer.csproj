@@ -439,6 +439,7 @@
     <None Include="Resources\PlayButton.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\volume.png" />
     <None Include="Resources\Guns N Roses  Sweet Child O Mine.jpeg" />
     <None Include="Resources\Queen  We Will Rock You1.jpg" />
     <None Include="Resources\Iron Maiden  The Trooper.jpg" />

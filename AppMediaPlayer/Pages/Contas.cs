@@ -59,7 +59,7 @@ namespace AppMediaPlayer.Pages
 
         private void label1_Click(object sender, EventArgs e)
         {
-            FormController.ShowForm(this, new Main());
+            //FormController.ShowForm(this, new Main());
         }
 
         private void pcbAdicionar_Click_1(object sender, EventArgs e)
